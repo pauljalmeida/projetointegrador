@@ -1,0 +1,29 @@
+<h4>Editar material</h4>
+<form action="/material-editar-salvar/<?php echo $this->view->material["id"]; ?>" method="post" enctype="multipart/form-data" >    
+    <div class="form-group">
+        <label>Nome do material: </label>        
+        <input type="text" name="nome_produto" class="form-control" value="<?php echo $this->view->material["nome_produto"]; ?>" required> 
+    </div>
+    
+    <div class="form-group">
+        <label>Descrição: </label>        
+        <textarea name="descricao" id="descricao"><?php echo $this->view->material["descricao"]; ?></textarea> 
+    </div> 
+    <div class="form-group">
+        <label>Categoria: </label>    
+        <select class="form-control" name="categoria">
+            <?php
+            foreach ($this->view->categorias as $categoria) {
+                echo "<option value='".$categoria["id_categoria"]."'>".$categoria["nome"]."</option>";
+            }
+            ?>          
+            
+
+        </select>
+    </div>
+     <div class="form-group">
+        <label>imagem: </label>        
+        <input type="file" name="imagem" class="form-control" value="<?php echo $this->view->material["imagem"]; ?>" required> 
+    </div>   
+    <button type="submit" class="btn btn-success">Editar</button>
+</form>

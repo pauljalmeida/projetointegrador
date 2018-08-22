@@ -1,0 +1,152 @@
+[
+    {
+        "name": "siriusphp/validation",
+        "version": "2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/siriusphp/validation.git",
+            "reference": "f8d5fd657dfd5f9e33bfafab2439ea6e19f3240c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/siriusphp/validation/zipball/f8d5fd657dfd5f9e33bfafab2439ea6e19f3240c",
+            "reference": "f8d5fd657dfd5f9e33bfafab2439ea6e19f3240c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^3.7"
+        },
+        "time": "2018-06-01T11:55:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sirius\\Validation\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Adrian Miu",
+                "email": "adrian@adrianmiu.ro"
+            }
+        ],
+        "description": "Data validation library. Validate arrays, array objects, domain models etc using a simple API. Easily add your own validators on top of the already dozens built-in validation rules",
+        "keywords": [
+            "form",
+            "modeling",
+            "sanitization",
+            "security",
+            "validation"
+        ]
+    },
+    {
+        "name": "siriusphp/upload",
+        "version": "2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/siriusphp/upload.git",
+            "reference": "1bfd8b1f228ec419424c8acd1ccd86d53541ad94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/siriusphp/upload/zipball/1bfd8b1f228ec419424c8acd1ccd86d53541ad94",
+            "reference": "1bfd8b1f228ec419424c8acd1ccd86d53541ad94",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3",
+            "siriusphp/validation": "~2.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "suggest": {
+            "knplabs/gaufrette": "Alternative filesystem abstraction library for upload destinations",
+            "league/flysystem": "To upload to different destinations, not just to the local file system"
+        },
+        "time": "2017-07-31T08:18:59+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sirius\\Upload\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Adrian Miu",
+                "email": "adrian@adrianmiu.ro"
+            }
+        ],
+        "description": "Framework agnostic upload library",
+        "keywords": [
+            "file",
+            "form",
+            "upload",
+            "validation"
+        ]
+    },
+    {
+        "name": "eventviva/php-image-resize",
+        "version": "1.6.8",
+        "version_normalized": "1.6.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eventviva/php-image-resize.git",
+            "reference": "10c3ca9f58298713599600f358e35fc29599a9d4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/10c3ca9f58298713599600f358e35fc29599a9d4",
+            "reference": "10c3ca9f58298713599600f358e35fc29599a9d4",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-exif": "Auto-rotate jpeg files"
+        },
+        "time": "2017-09-09T04:37:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aditya Patadia",
+                "homepage": "http://aditya.patadia.org/"
+            }
+        ],
+        "description": "PHP class to re-size and scale images",
+        "homepage": "https://github.com/eventviva/php-image-resize",
+        "keywords": [
+            "image",
+            "php",
+            "resize",
+            "scale"
+        ],
+        "abandoned": "gumlet/php-image-resize"
+    }
+]

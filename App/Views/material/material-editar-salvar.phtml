@@ -1,0 +1,28 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel admnistrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+
+<?php
+else:
+header("Location: login");
+endif;
+?> 
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+          <ul class="nav nav-justified">
+            
+            <li><a href="cate-cadastrar">Cadastrar categorias</a></li>
+            <li><a href="cate">Editar categorias</a></li>
+            <li><a href="material-cadastrar">Cadastrar Material</a></li>
+            <li><a href="material">Editar Material</a></li>
+            <li><a href="cliente"> clientes</a></li>
+          </ul>
+        </nav>
+
+<h4>Concluído</h4>
+<p>O material foi editado com sucesso.</p><br />
+<p><a href="/material" class="btn btn-success">Voltar para a relação de materiais</a></p>

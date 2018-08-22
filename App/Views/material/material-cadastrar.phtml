@@ -1,0 +1,54 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel admnistrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+
+<?php
+else:
+header("Location: login");
+endif;
+?> 
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+          <ul class="nav nav-justified">
+            
+            <li><a href="cate-cadastrar">Cadastrar categorias</a></li>
+            <li><a href="cate">Editar categorias</a></li>
+            <li><a href="material-cadastrar">Cadastrar Material</a></li>
+            <li><a href="material">Editar Material</a></li>
+            <li><a href="cliente">Clientes</a></li>
+          </ul>
+        </nav>
+
+
+<h4>Cadastro de Materiais</h4>
+<form action="material-cadastrar-salvar" method="post" enctype="multipart/form-data">   
+    <div class="form-group">
+        <label>Nome do material: </label>        
+        <input type="text" name="nome" class="form-control"> 
+    </div>
+    <div class="form-group">
+        <label>Descrição: </label>      
+        <textarea name="descricao" id="descricao"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Categoria: </label>    
+        <select class="form-control" name="categoria">
+            <?php
+            foreach ($this->view->categorias as $categoria) {
+                echo "<option value='".$categoria["id_categoria"]."'>".$categoria["nome"]."</option>";
+            }
+            ?>          
+            
+
+        </select>
+    </div>
+    <div class="form-group">
+        <label>imagem: </label>    
+        <input type="file" name="imagem" class="form-control"> 
+    </div>    
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+</form>

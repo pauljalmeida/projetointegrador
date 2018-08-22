@@ -1,0 +1,21 @@
+/** 
+ Defina neste arquivo, todas as regras CSS de estilos de sua aplicação
+*/
+
+.celula_fixa {
+    width: 200px;
+    overflow: auto;
+}
+
+.celula_fixa2 {
+    width: 200px;
+    overflow: auto;
+}
+
+.celula_fixa3 {
+    width: 160px;
+}
+
+.celula_fixa4 {
+    width: 50px;
+}

@@ -1,0 +1,105 @@
+<?php 
+/**
+ *  Código PHP usado para verificar se a URL possui um ou dois parâmetros (como o ID em uma URL, por exemplo). Com base nisso, define o caminho do template. Ex de um parâmetro na URL: www.dominiodesuaaplicacao.com.br/cliente. Ex de dois parâmetros na URL: www.dominiodesuaaplicacao.com.br/deletar-cliente/1, onde é passado o ID do cliente da URL
+ * 
+ * NÃO REMOVA ESTE CÓDIGO PHP
+ * 
+ * Referencie os arquivos de seu layout (que deverão estar obrigatoriamente no diretório public) da seguinte maneira:
+ *
+ * Exs.: 
+ *  <link href="<?php echo PATH_HOME; ?>/css/styles.css" rel="stylesheet">
+ *  <img alt="Descrição da imagem" src="<?php echo PATH_HOME; ?>img/nomedaimagem.jpg">*  
+ * 
+ */
+// if(!isset($_SESSION))
+// {
+//    session_start();
+// }
+
+
+// if ($_SESSION['logado']):
+$url = parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH);
+$pieces = explode("/", $url);
+if (count($pieces) >2){
+  define("PATH_HOME", "../");
+} else {
+  define("PATH_HOME", "");
+}
+?>
+
+<!-- INÍCIO DA DEFINIÇÃO DE SEU LAYOUT. 
+Edite o código abaixo da maneira que for conveniente a você -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Construir e Reformar sem Grilos</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Estilos de sua aplicação. Use o arquivo CSS abaixo para aplicar o estilo. Todos os arquivos referentes ao layout precisam estar no diretório public -->
+    <link href="<?php echo PATH_HOME; ?>css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="container">
+      <div class="masthead">
+        <div class="row">
+  
+  
+        
+        
+</div>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/categorias">Produtos</a></li>
+            <li><a href="/links">Links</a></li>
+            <li><a href="/cliente-cadastrar">Contato</a></li>
+            <li><a href="/login"><img srcset="/img/adm.png" media="min-width: 300px"></a></li>
+          </ul>
+        </nav>
+      </div>
+    	
+      
+      <!-- Início do conteúdo principal -->          
+      <?php 
+      /**
+       * O código abaixo imprime o conteúdo das views no layout da sua aplicação. Posicione este código no local do HTML onde você gostaria que o seu conteúdo dinâmico seja mostrado. Não remova esta linha, ou, então, suas views não serão exibidas.
+       */
+      echo $this->content(); 
+      ?>
+      <!-- Fim do conteúdo principal -->
+
+    </div>
+
+     <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2017 Paul Jackson.</p>
+      </footer>
+
+    <!-- JavaScript -->
+    <!-- jQuery e Bootstrap JS. Caso não seja necessário ao seu projeto, remova estas linhas -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Importação do CK Editor. Opcional. Caso você queira usar um editor WYSIWYG para um textarea. Caso não seja necessário para o seu projeto, remova a linha abaixo. -->
+    <script src="//cdn.ckeditor.com/4.7.1/full/ckeditor.js"></script>
+
+    <!-- Arquivo JS de sua aplicação. Utilize este arquivo para definir funções JavaScript necessárias ao seu projeto -->    
+    <script src="<?php echo PATH_HOME; ?>js/script.js"></script>
+
+  </body>
+</html>
+<!-- <?php
+// else:
+// header("Location: login");
+// endif;
+?> -->

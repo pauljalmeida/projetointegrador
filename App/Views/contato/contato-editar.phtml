@@ -1,0 +1,16 @@
+<h4>Editar cliente</h4>
+<form action="/cliente-editar-salvar/<?php echo $this->view->clientes["id"]; ?>" method="post">    
+    <div class="form-group">
+        <label>Nome do cliente: </label>        
+        <input type="text" name="nome" class="form-control" value="<?php echo $this->view->clientes["nome"]; ?>" required> 
+    </div>
+    <div class="form-group">
+        <label>E-mail: </label>        
+        <input type="email" name="email" class="form-control" value="<?php echo $this->view->clientes["email"]; ?>" required> 
+    </div>
+    <div class="form-group">
+        <label>Descrição: </label>        
+        <textarea name="descricao" id="descricao"><?php echo $this->view->clientes["descricao"]; ?></textarea> 
+    </div>    
+    <button type="submit" class="btn btn-success">Editar</button>
+</form>

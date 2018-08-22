@@ -1,0 +1,18 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel admnistrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+
+<?php
+else:
+header("Location: login");
+endif;
+?>
+
+<h4>Concluído</h4>
+<p>A categoria foi editada com sucesso.</p><br />
+<p><a href="/cate" class="btn btn-success">Voltar para o painel</a></p>

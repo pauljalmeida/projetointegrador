@@ -1,0 +1,4 @@
+﻿
+
+
+CKEDITOR.replace('descricao');

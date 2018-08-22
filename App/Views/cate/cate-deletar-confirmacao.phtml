@@ -1,0 +1,15 @@
+<?php
+// Retorna o ID passado por parâmetro na URL.
+// Este id será enviado à URL cliente-deletar-salvar/id
+ 
+$url = parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH);
+$pieces = explode("/", $url);
+$id_categoria = $pieces[2];
+?>
+ 
+<h4>Você está prestes a deletar uma categoria. Você tem certeza?</h4>
+<p>Esta ação não poderá ser desfeita. </p><p>Deseja continuar?</p><br />
+<p>
+    <a href="/cate-deletar-salvar/<?php echo $id_categoria; ?>" class="btn btn-success">Sim</a>
+    <a href="/cate" class="btn btn-danger">Não</a> 
+</p>

@@ -1,0 +1,55 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel admnistrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+
+<?php
+else:
+header("Location: login");
+endif;
+?> 
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+          <ul class="nav nav-justified">
+            
+            <li><a href="cate-cadastrar">Cadastrar categorias</a></li>
+            <li><a href="cate">Editar categorias</a></li>
+            <li><a href="material-cadastrar">Cadastrar Material</a></li>
+            <li><a href="material">Editar Material</a></li>
+            <li><a href="cliente">Clientes</a></li>
+          </ul>
+        </nav>
+
+
+
+<h4>Relação de materiais</h4>
+<table class="table table-striped table-hover table-bordered">
+    <tr>        
+        <td class="celula_fixa">Nome</td>
+        <td>Descrição</td>
+        <td class="celula_fixa2">Categoria</td>
+        <td class="celula_fixa3">Imagem</td>
+        <td class="celula_fixa4">Ações</td>
+    </tr> 
+    <?php 
+    /* $this->view->clientes é o array de clientes que foi passado pelo Controller, *após a excução do método select();
+    * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+    */ 
+    foreach ($this->view->materiais as $material): 
+    ?>
+    
+    <tr>
+        <td><?php echo $material["nome_produto"]; ?></td>
+        <td><?php echo $material["descricao"]; ?></td>
+        <td><?php echo $material["id_categoria"]; ?></td>
+        <td><img src="/imagens/thumbs/<?php echo $material["imagem"]; ?>" alt="<?php echo $material["nome_produto"]; ?>"></td>
+        <td>
+            <a href="material-editar/<?php echo $material["id"]; ?>"><span class='glyphicon glyphicon-pencil'></span></a>
+            <a href="material-deletar-confirmacao/<?php echo $material["id"]; ?>"><span class='glyphicon glyphicon-remove'></span></a>
+        </td>
+    </tr>
+    <?php endforeach; ?>
+</table>

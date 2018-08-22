@@ -1,0 +1,27 @@
+{
+    "name": "SON/MVC",   
+    "require": {
+        "php": ">=5.3",
+        "siriusphp/upload": "^2.1",
+        "eventviva/php-image-resize": "^1.6"
+    },
+
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Rafael",
+            "email": "rafaelsaltiel@gmail.com"
+        }
+    ],
+
+    "autoload":{
+    	"psr-0" : {
+    		"SON" : "vendor",
+    		"App" : "/"
+    	}
+    },
+
+    "config": {
+    	"bin-dir": "bin"
+    }
+}

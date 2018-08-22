@@ -1,0 +1,24 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel admnistrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+
+<?php
+else:
+header("Location: login");
+endif;
+?>
+
+<h4>Editar categoria</h4>
+<form action="/cate-editar-salvar/<?php echo $this->view->cates["id_categoria"]; ?>" method="post">    
+    <div class="form-group">
+        <label>Nome da categoria: </label>        
+        <input type="text" name="nome" class="form-control" value="<?php echo $this->view->cates["nome"]; ?>" required> 
+    </div>
+  
+    <button type="submit" class="btn btn-success">Editar</button>
+</form>

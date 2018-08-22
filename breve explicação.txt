@@ -1,0 +1,15 @@
+no meu projeto tem todas as views plos links no acesso 
+
+digitando www.projetointegrador.com.br ou projeto integrador no wamp ou xampp 
+
+projetointegrador/login  digitando login aaaa senha aaaa entra no menu adm onde tem as funções dentro
+
+onde tem cadastro de produtos edição dos mesmos cadastro de categorias vizualização de cadastro de clientes ou edição dos mesmos e a função sair
+
+na view basica usuario não admin tem os produtos cadastrados por catergoria e o cadastro de clientes.
+
+qualquer duvida 
+
+Email
+
+pauljalmeida@gmail.com
