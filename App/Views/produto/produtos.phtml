@@ -11,17 +11,17 @@ $id = $pieces[2];
 
 
  <div class="jumbotron">
-        <h1><img srcset="/img/logo.jpg" media="min-width: 300px">Construir sem Grilos</h1>
+ <h1><img src="/img/construir.png" width="100%" height="405"/></h1>
 
         
   
   <div class="info">
- <table class="table table-striped table-hover table-bordered">
-    <tr>        
-        <td>Nome</td>        
-        <td>Descrição</td>
-        <td>Imagem</td>
-    </tr> 
+    <table class="table table-striped table-hover table-bordered">
+        <tr>        
+            <td>Nome</td>        
+            <td>Descrição</td>
+            <td>Imagem</td>
+        </tr> 
     <?php 
     /* $this->view->clientes é o array de clientes que foi passado pelo Controller, *após a excução do método select();
     * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
@@ -33,7 +33,7 @@ $id = $pieces[2];
 
         foreach ($this->view->produtos as $produto) {
 
-            ?>
+        ?>
 
         <tr>
             
@@ -51,15 +51,6 @@ $id = $pieces[2];
 
     
     
-</table>
+        </table>
 
-<!-- </div>
-<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('info').click(function() {
-                $(this).toggleClass('active');
-                $(".celula_fixa").parent().siblings("td").slideToggle();
-            });
-        });
-    </script> -->
+</div>

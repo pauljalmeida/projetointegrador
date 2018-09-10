@@ -19,3 +19,15 @@
 .celula_fixa4 {
     width: 50px;
 }
+
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: #eee;
+}
+
+p.assinatura {
+    text-align: center;
+}

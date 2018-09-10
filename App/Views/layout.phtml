@@ -26,7 +26,10 @@ if (count($pieces) >2){
   define("PATH_HOME", "");
 }
 ?>
-
+<?php
+	$url=$_SERVER['REQUEST_URI'];
+	header("Refresh: 5; URL=\"" . $url . "\""); // redirect in 5 seconds
+	?>
 <!-- INÍCIO DA DEFINIÇÃO DE SEU LAYOUT. 
 Edite o código abaixo da maneira que for conveniente a você -->
 
@@ -43,6 +46,8 @@ Edite o código abaixo da maneira que for conveniente a você -->
 
     <!-- Estilos de sua aplicação. Use o arquivo CSS abaixo para aplicar o estilo. Todos os arquivos referentes ao layout precisam estar no diretório public -->
     <link href="<?php echo PATH_HOME; ?>css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
   </head>
 
@@ -57,11 +62,12 @@ Edite o código abaixo da maneira que for conveniente a você -->
         
         
 </div>
+
         <nav>
-          <ul class="nav nav-justified">
+          <ul class="nav nav-justified ">
             <li><a href="/">Home</a></li>
             <li><a href="/categorias">Produtos</a></li>
-            <li><a href="/links">Links</a></li>
+            <!-- <li><a href="/links">Links</a></li> -->
             <li><a href="/cliente-cadastrar">Contato</a></li>
             <li><a href="/login"><img srcset="/img/adm.png" media="min-width: 300px"></a></li>
           </ul>
@@ -82,7 +88,7 @@ Edite o código abaixo da maneira que for conveniente a você -->
 
      <!-- Site footer -->
       <footer class="footer">
-        <p>&copy; 2017 Paul Jackson.</p>
+        <p class="assinatura">&copy; 2017-2018 Paul Jackson.</p>
       </footer>
 
     <!-- JavaScript -->
@@ -98,8 +104,3 @@ Edite o código abaixo da maneira que for conveniente a você -->
 
   </body>
 </html>
-<!-- <?php
-// else:
-// header("Location: login");
-// endif;
-?> -->
