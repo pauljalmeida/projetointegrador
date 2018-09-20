@@ -48,6 +48,7 @@ Edite o código abaixo da maneira que for conveniente a você -->
     <link href="<?php echo PATH_HOME; ?>css/styles.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="jumbotron.css" rel="stylesheet">
 
   </head>
 
@@ -56,23 +57,27 @@ Edite o código abaixo da maneira que for conveniente a você -->
     <div class="container">
       <div class="container">
       <div class="masthead">
-        <div class="row">
-  
-  
-        
-        
+        <div class="row">       
 </div>
 
         <nav>
+        
           <ul class="nav nav-justified ">
-            <li><a href="/">Home</a></li>
+          <li><a href="/">Home</a></li>
             <li><a href="/categorias">Produtos</a></li>
-            <!-- <li><a href="/links">Links</a></li> -->
-            <li><a href="/cliente-cadastrar">Contato</a></li>
-            <li><a href="/login"><img srcset="/img/adm.png" media="min-width: 300px"></a></li>
-          </ul>
-        </nav>
-      </div>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/categorias" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              
+              <ul><a class="dropdown-item" href="/produtos/<?php echo $categoria["id_categoria"]; ?>"><?php echo $categoria["nome"]; ?></a></ul>
+              
+            </div>
+          </li>
+           <li><a href="/cliente-cadastrar">Contato</a></li>
+             <li><a href="/login"><img srcset="/img/adm.png" media="min-width: 300px"></a></li>
+           </ul>
+         </nav>
+       </div> 
     	
       
       <!-- Início do conteúdo principal -->          

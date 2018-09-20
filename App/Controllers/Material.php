@@ -25,8 +25,28 @@ class Material extends Action
     public function materialListar()
     {
       
-    // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
-    $material = Container::getClass("Material");
+    // // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+    // $material = Container::getClass("Material");
+ 
+    // /**
+    // * O Método select, da classe Table, retorna um array com o resultado do select, considerando o que foi passado como parâmetro. 
+    // * Neste caso, passamos os seguintes parâmetros: 
+    // * @param $campos = Informa quais os campos farão parte do select. Também pode ser usado *, para selecionar todos os campos
+    // * @param $ordenarPor = Informa por campo será feita a ordenação e
+    // * @param $ordenacao = Informa qual a ordem: ASC ou DESC
+    // * Opcional: você ainda pode informar um quarto parâmetro, quando necessário.
+    // * Ex.: $condicoes = "WHERE id > 20";
+    // * Neste caso, bastaria adicionar o parâmetro $condicoes após $ordenacao
+    // */
+ 
+    // $campos = "*";
+    // $ordenarPor = "id_categoria";
+    // $ordenacao = "asc";
+    // $materiais = $material->select($campos, $ordenarPor, $ordenacao);
+
+
+// Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+    $material = Container::getClass("MaterialCategoria");
  
     /**
     * O Método select, da classe Table, retorna um array com o resultado do select, considerando o que foi passado como parâmetro. 
@@ -39,10 +59,19 @@ class Material extends Action
     * Neste caso, bastaria adicionar o parâmetro $condicoes após $ordenacao
     */
  
-    $campos = "*";
-    $ordenarPor = "id_categoria";
-    $ordenacao = "asc";
-    $materiais = $material->select($campos, $ordenarPor, $ordenacao);
+
+    $fields = "p.id, p.descricao, p.nome_produto, p.imagem, c.nome";
+    $conditions = "INNER JOIN categoria AS c ON p.id_categoria = c.id_categoria";
+
+    $materiais = $material->select($fields, "c.nome", "asc", $conditions);
+    
+
+
+    
+
+    
+    
+
  
     // Envia o array de clientes do select acima para a view; 
     // Na view, faremos um for para exibir todos os dados de clientes deste array
