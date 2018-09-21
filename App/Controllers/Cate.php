@@ -43,6 +43,17 @@ class Cate extends Action
  
     // Envia o array de clientes do select acima para a view; 
     // Na view, faremos um for para exibir todos os dados de clientes deste array
+    // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+    $categoria = Container::getClass("Categoria");
+
+    $campos = "*";
+    $ordenarPor = "nome";
+    $ordenacao = "asc";
+    $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+ 
+    // Envia o array de categorias do select acima para a view; 
+    // Na view, faremos um for para exibir todos os dados de categorias deste array
+    $this->view->categorias = $categorias;
     $this->view->cates = $cates;
         
     // Renderizando (chama a view: cate/cate.phtml). Esta view recebe o array $this->view->cates. 
@@ -60,6 +71,18 @@ class Cate extends Action
         * Todo o conteúdo desta view (neste caso, o formulário de cadastro) será impresso, no layout, através do código echo $this->content(); que já está definido no arquivo layout.phtml
         */
    
+// Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+$categoria = Container::getClass("Categoria");
+
+$campos = "*";
+$ordenarPor = "nome";
+$ordenacao = "asc";
+$categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+
+// Envia o array de categorias do select acima para a view; 
+// Na view, faremos um for para exibir todos os dados de categorias deste array
+$this->view->categorias = $categorias;
+
         $this->render('cate-cadastrar');
  
     }

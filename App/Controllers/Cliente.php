@@ -43,7 +43,21 @@ class Cliente extends Action
  
     // Envia o array de clientes do select acima para a view; 
     // Na view, faremos um for para exibir todos os dados de clientes deste array
+
+    // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+    $categoria = Container::getClass("Categoria");
+
+    $campos = "*";
+    $ordenarPor = "nome";
+    $ordenacao = "asc";
+    $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+ 
+    // Envia o array de categorias do select acima para a view; 
+    // Na view, faremos um for para exibir todos os dados de categorias deste array
+    $this->view->categorias = $categorias;
     $this->view->clientes = $clientes;
+
+    
         
     // Renderizando (chama a view: cliente/cliente.phtml). Esta view recebe o array $this->view->clientes. 
     //Ele será o responsável por exibir os dados na view
@@ -59,6 +73,17 @@ class Cliente extends Action
         * Caso não queira utilizar o template e imprimir apenas o content, usar $this->render('cliente-cadastrar', false);
         * Todo o conteúdo desta view (neste caso, o formulário de cadastro) será impresso, no layout, através do código echo $this->content(); que já está definido no arquivo layout.phtml
         */
+        // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+    $categoria = Container::getClass("Categoria");
+
+    $campos = "*";
+    $ordenarPor = "nome";
+    $ordenacao = "asc";
+    $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+ 
+    // Envia o array de categorias do select acima para a view; 
+    // Na view, faremos um for para exibir todos os dados de categorias deste array
+    $this->view->categorias = $categorias;
    
         $this->render('cliente-cadastrar');
  

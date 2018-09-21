@@ -46,6 +46,18 @@ class Produto extends Action
     // Atribui para a view;
     $this->view->produtos = $produtos;
 
+    // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+    $categoria = Container::getClass("Categoria");
+
+    $campos = "*";
+    $ordenarPor = "nome";
+    $ordenacao = "asc";
+    $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+ 
+    // Envia o array de categorias do select acima para a view; 
+    // Na view, faremos um for para exibir todos os dados de categorias deste array
+    $this->view->categorias = $categorias;
+
     // Renderizando (chama a view: cliente/cliente.phtml). Esta view recebe o array $this->view->clientes. 
     //Ele será o responsável por exibir os dados na view
     $this->render('produtos');

@@ -31,6 +31,19 @@ class Index extends Action
         $this->view->nomes = $nomes;
         $this->view->x;
         
+       
+
+        // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
+        $categoria = Container::getClass("Categoria");
+    
+        $campos = "*";
+        $ordenarPor = "nome";
+        $ordenacao = "asc";
+        $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+     
+        // Envia o array de categorias do select acima para a view; 
+        // Na view, faremos um for para exibir todos os dados de categorias deste array
+        $this->view->categorias = $categorias;
         /** 
         * Renderizando. 
         * Chama a view index/index.phtml e passa as variáveis acima para usar nesta view

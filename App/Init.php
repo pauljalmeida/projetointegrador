@@ -64,6 +64,7 @@ class Init extends Bootstrap
 
         // Rota da listagem de categorias     
         $ar['categorias'] = array('route' => '/categorias', 'controller' => 'categoria', 'action' => 'categoriaListar');
+        
 
 
 
