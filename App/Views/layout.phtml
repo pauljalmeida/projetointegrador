@@ -43,9 +43,11 @@ Edite o código abaixo da maneira que for conveniente a você -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
 
     <!-- Estilos de sua aplicação. Use o arquivo CSS abaixo para aplicar o estilo. Todos os arquivos referentes ao layout precisam estar no diretório public -->
     <link href="<?php echo PATH_HOME; ?>css/styles.css" rel="stylesheet">
+    
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link href="jumbotron.css" rel="stylesheet">
@@ -64,12 +66,22 @@ Edite o código abaixo da maneira que for conveniente a você -->
         
           <ul class="nav nav-justified ">
           <li><a href="/">Home</a></li>
-            <li><a href="/categorias">Produtos</a></li>
+            <!-- <li><a href="/categorias">Produtos</a></li> -->
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/categorias" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              
-              <ul><a class="dropdown-item" href="/produtos/<?php echo $categoria["id_categoria"]; ?>"><?php echo $categoria["nome"]; ?></a></ul>
+            <a class="btn btn-secondary dropdown-toggle" href="/categorias" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">              
+            <ul><a class="dropdown-item" href="/produtos/1">Aberturas</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/2">Eletrica</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/4">Ferrametas</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/6">Iluminção</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/7">Jardinagem</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/8">Material Bruto</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/9">Material de Pintura</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/10">Metais Sanitários</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/11">Pisos</a></ul>
+            <ul><a class="dropdown-item" href="/produtos/12">Tintas</a></ul>
+            <!-- <ul><a class="dropdown-item" href="/produtos/1">Aberturas</a></ul> -->
+    
               
             </div>
           </li>

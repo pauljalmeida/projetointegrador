@@ -31,3 +31,12 @@
 p.assinatura {
     text-align: center;
 }
+
+div.jumbotron1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: #eee;
+    text-align: center
+}
