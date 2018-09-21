@@ -41,5 +41,6 @@ class Index extends Action
         $this->render('index');
        
     }
+   
     
 }

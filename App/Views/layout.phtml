@@ -69,20 +69,14 @@ Edite o código abaixo da maneira que for conveniente a você -->
             <!-- <li><a href="/categorias">Produtos</a></li> -->
             <li class="nav-item dropdown">
             <a class="btn btn-secondary dropdown-toggle" href="/categorias" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">              
-            <ul><a class="dropdown-item" href="/produtos/1">Aberturas</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/2">Eletrica</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/4">Ferrametas</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/6">Iluminção</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/7">Jardinagem</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/8">Material Bruto</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/9">Material de Pintura</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/10">Metais Sanitários</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/11">Pisos</a></ul>
-            <ul><a class="dropdown-item" href="/produtos/12">Tintas</a></ul>
-            <!-- <ul><a class="dropdown-item" href="/produtos/1">Aberturas</a></ul> -->
-    
-              
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> 
+            <?php  
+              foreach ($this->view->categorias as $categoria): 
+            ?>
+            <td>
+                <ul><a href="/produtos/<?php echo $categoria["id_categoria"]; ?>"><?php echo $categoria["nome"]; ?></a></ul>
+              </td>
+              <?php endforeach; ?>           
             </div>
           </li>
            <li><a href="/cliente-cadastrar">Contato</a></li>
@@ -118,6 +112,8 @@ Edite o código abaixo da maneira que for conveniente a você -->
 
     <!-- Arquivo JS de sua aplicação. Utilize este arquivo para definir funções JavaScript necessárias ao seu projeto -->    
     <script src="<?php echo PATH_HOME; ?>js/script.js"></script>
+    
 
   </body>
 </html>
+

@@ -5,15 +5,15 @@ if(!isset($_SESSION))
 }
 if ($_SESSION['logado']):
 ?>	
-Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel admnistrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
-
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
 <?php
 else:
 header("Location: login");
 endif;
 ?> 
 
-
+<br>
 
 
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
