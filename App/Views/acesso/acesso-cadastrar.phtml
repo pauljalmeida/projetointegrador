@@ -1,0 +1,101 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br> 
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="acesso-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar tipos de Acesso</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/acesso" role="button">Tipos de Acessos</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/acesso" role="button">Alterar/Deletar Acesso</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Usuários
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="usuario-cadastrar">Cadastrar Usuário</a></li>
+                <li><a href="usuario">Alterar/Deletar Usuário</a></li>
+                <li><a href="usuario">Listar todos Usuário</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="col-md-10">
+        	<h4>Cadastrar níveis de acesso</h4>
+        	<form action="acesso-cadastrar-salvar" method="post"> 
+        		<br>  
+        		<div class="form-group">
+        			<label>Tipo de acesso: </label>        
+        			<input type="text" name="nivel_usuario" class="form-control" required>         		
+        		<br>            
+        			<label>Nome do acesso: </label>        
+        			<input type="text" name="nome_nivel" class="form-control" required> 
+        		</div>
+        		<br>
+        		<div class="row">
+        			<div class="col-md-2"></div>
+        			<div class="col-md-2"></div>
+        			<div class="col-md-2">
+        				<a class="btn btn-danger" href="acesso">Cancelar Cadastro </a>
+        			</div>
+        			<div class="col-md-2">
+        				<button type="submit" class="btn btn-success">Salvar Cadastro</button>
+        			</div>
+        			<div class="col-md-2"></div>
+        		</div>
+        	</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

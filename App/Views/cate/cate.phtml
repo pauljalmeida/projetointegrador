@@ -16,19 +16,50 @@ endif;
 <br>
 
 
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-          <ul class="nav nav-justified">
+
+<div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/cate" role="button">
+                <i></i>&nbsp;Categoria</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/cate-cadastrar" role="button">Cadastrar Categorias</a>
+            </li>
             
-            <li><a href="cate-cadastrar">Cadastrar categorias</a></li>
-            <li><a href="cate">Editar categorias</a></li>
-            <li><a href="material-cadastrar">Cadastrar Material</a></li>
-            <li><a href="material">Editar Material</a></li>
-            <li><a href="cliente">Clientes</a></li>
           </ul>
-</nav>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="col-md-2">
+<ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+</div>
 
-
-
+<div class="col-md-10">
 <h4>Relação de categorias</h4>
 <table class="table table-striped table-hover table-bordered">
     <tr>        
@@ -52,3 +83,4 @@ endif;
     </tr>
     <?php endforeach; ?>
 </table>
+</div>

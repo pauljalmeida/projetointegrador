@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 namespace App\Controllers;
 
@@ -22,31 +22,9 @@ class Login extends Action
      *  Chama a página de login
      */
 
-    public function Login()
+    public function loginHome()
     {
-// Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
-$categoria = Container::getClass("Categoria");
 
-$campos = "*";
-$ordenarPor = "nome";
-$ordenacao = "asc";
-$categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
-
-// Envia o array de categorias do select acima para a view; 
-// Na view, faremos um for para exibir todos os dados de categorias deste array
-
-// Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
-$categoria = Container::getClass("Categoria");
-
-$campos = "*";
-$ordenarPor = "nome";
-$ordenacao = "asc";
-$categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
-
-// Envia o array de categorias do select acima para a view; 
-// Na view, faremos um for para exibir todos os dados de categorias deste array
-$this->view->categorias = $categorias;
-$this->view->categorias = $categorias;
         // Renderizando, sem o arquivol layout.phtml
         $this->render('login');
 
@@ -57,39 +35,41 @@ $this->view->categorias = $categorias;
      *  Caso os dados estejam incorretos, redireciona novamente ao login, com variável de erro setada, para exibir mensagem de erro de login na view.
      */
 
-    public function validarLogin()
-    {        
+    public function iniciarSessao()
+    {
 
-        $arquivo = Container::getClass("Login");        
+        if(!isset($_SESSION)) {
+            session_start();
+        }  
 
-        if ($arquivo->validateLogin($_POST["nome"], $_POST["senha"])){  
 
-            if(!isset($_SESSION)) {
-               session_start();
-            }                 
+        if (!empty($_POST)) {
+            $arquivo = Container::getClass("Login");
 
-            // Após o login, redireciona o usuário para a view início.  
-            // Diz ao Controller que utilizaremos a Model Cliente (tabela cliente)        
-    $categoria = Container::getClass("Categoria");
+            if ($arquivo->validateLogin($_POST["siape"], $_POST["senha"])){ 
 
-    $campos = "*";
-    $ordenarPor = "nome";
-    $ordenacao = "asc";
-    $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
- 
-    // Envia o array de categorias do select acima para a view; 
-    // Na view, faremos um for para exibir todos os dados de categorias deste array
-    $this->view->categorias = $categorias;     
-                 
-            $this->render('index');
+                if ($_SESSION['verifique']==0) {
+                        $this->render('login-alterar-senha');
+                }  
+                elseif (($_SESSION['verifique']==1) && $arquivo->validateLogin($_POST["siape"], $_POST["senha"])){
+                     $_SESSION['logado'] = true; 
+                    // Após o login, redireciona o usuário para a view início.
+                    $this->render('inicia-sessao'); 
+                } 
 
-        // Se der erro no login, retorna para a view login, com variável de erro setada para exibir mensagem de erro de login na view.
-        } else {
-            $this->view->erro = true;
-            
-            $this->render('index');
+            // Se der erro no login, retorna para a view login, com variável de erro setada para exibir mensagem de erro de login na view. 
+            } else {
+                $this->view->erro = true;
+                $this->render('login-erro');
+                } 
         }
+        elseif (isset($_SESSION['logado'])) { //se usuario ja estiver conectado acessa o sistema.
+                $this->render('inicia-sessao');
+        }
+        else{
 
+            $this->render('login'); //se nao estiver conectado vai p/ login.
+        }
     }
 
     /**
@@ -105,7 +85,114 @@ $this->view->categorias = $categorias;
             session_destroy();
             $this->render('login');
         }
+        else{
+            $this->render('login');
+        }
 
     }
+    //Encaminha o usuário para view login-esqueceu-senha
+    public function esqueceuSenha(){
+        $this->render('login-esqueceu-senha');
+    }
     
+    //Verifica se o email informado existe no banco de dados e retorna com a chave de acesso
+    public function recuperarSenha(){
+        if (!empty($_POST)) {
+
+        $this-> geraChaveRetificacao($_POST["email"]);
+
+        }
+    }
+
+    public function geraChaveRetificacao($email){
+        
+            if(!isset($_SESSION)) {
+                session_start();
+            }
+
+            $arquivo = Container::getClass("Login");
+
+            if ($arquivo->validateEmail($_POST["email"])==1){       
+
+                // Após o informar se estiver correto, gera a chave de acesso
+                $chave = sha1($_SESSION['id_usuario']. $_SESSION['senha']);
+                $_SESSION['chave']= $chave;
+                //retorna para view login-recuperar-senha
+                $this->render('login-recuperar-senha'); 
+            }
+            elseif ($arquivo->validateEmail($_POST["email"])==0){
+
+                //retorna para view para informar que este email nao é castrado
+                $this->render('login-email-inexistente'); 
+            }
+    }
+
+    public function retificarSenha(){
+        if(!isset($_SESSION)) {
+                session_start();
+            }
+
+        if ((!empty($_POST['chave'])) == $_SESSION['chave']) {
+
+            //mostra view com menssagem de sucesso
+            $this->render('login-cadastrar-nova-senha');
+           
+        }
+        else{
+
+            //mostra view com a mensagem de erro
+            $this->render('login-chave-inexistente');
+        }
+    }
+
+    public function loginAlterarSenha(){
+        if (!empty($_POST)) {
+
+        $this-> geraChaveAcesso($_POST["senha_provisoria"]);
+
+        }
+    }
+
+    public function geraChaveAcesso($senha_provisoria){
+        
+            if(!isset($_SESSION)) {
+                session_start();
+            }
+
+            $arquivo = Container::getClass("Login");
+
+            if ($arquivo->validateSenhaProvisoria($_POST["email"], $_POST["senha_provisoria"])==1){       
+
+                // Após o informar se estiver correto, gera a chave de acesso
+                $chave = sha1($_SESSION['id_usuario']. $_SESSION['senha']);
+                $_SESSION['chave']= $chave;
+                //retorna para view login-alterar-senha-primeiro-acesso
+                $this->render('login-alterar-senha-primeiro-acesso'); 
+            }
+            elseif ($arquivo->validateSenhaProvisoria($_POST["email"], $_POST["senha_provisoria"])==0){
+
+                //retorna para view para informar que este email nao é castrado
+                $this->render('login-senha-provisoria-inexistente'); 
+            }
+    }
+
+    public function alterarSenhaPrimeiroAcesso(){
+        if(!isset($_SESSION)) {
+                session_start();
+            }
+
+        if ((!empty($_POST['chave'])) == $_SESSION['chave']) {
+
+            //mostra view com menssagem de sucesso
+            $this->render('cadastrar-senha-primeiro-acesso');
+           
+        }
+        else{
+
+            //mostra view com a mensagem de erro
+            $this->render('login-chave-acesso-inexistente');
+        }
+    }
+
 }
+             

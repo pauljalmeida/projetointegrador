@@ -1,0 +1,91 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Usuários</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario" role="button">Listar Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/usuario" role="button">Alterar/Deletar Usuários</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Acessos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="acesso-cadastrar">Cadastrar Acesso</a></li>
+                <li><a href="acesso">Alterar/Deletar Acesso</a></li>
+                <li><a href="acesso">Listar todos os Acessos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <?php
+          // Retorna o ID passado por parâmetro na URL.
+          // Este id será enviado à URL cliente-deletar-salvar/id
+           
+          $url = parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH);
+          $pieces = explode("/", $url);
+          $id = $pieces[2];
+          ?>
+        </br>
+        <h4>Você está prestes a deletar um usuário. Você tem certeza?</h4>
+        <h4 style="color: red"><p>Esta ação não poderá ser desfeita. </p><p>Deseja continuar?</p><br /></h4>
+        <p>
+        <a href="/usuario-deletar-salvar/<?php echo $id; ?>" class="btn btn-success">Sim</a>
+        <a href="/usuario" class="btn btn-danger">Não</a> 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
+

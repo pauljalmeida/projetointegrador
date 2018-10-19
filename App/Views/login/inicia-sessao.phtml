@@ -1,0 +1,82 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?> 
+
+<br>
+ 
+ 
+ 
+ 
+ 
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div style="width: 18rem">
+            <div class="card-body">              
+              <br>
+              <a href="/usuario" class="btn bg-success text-white">Usuários</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div style="width: 16rem">
+            <div class="card-body">              
+              <br>
+              <a href="/acesso" class="btn bg-success text-white">Acessos</a> 
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-2">
+          <div style="width: 16rem">
+            <div class="card-body">
+              
+              <br>
+              <a href="/status" class="btn btn-success">Gerenciar Status</a>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-md-2">
+          <div style="width: 16rem">
+            <div class="card-body">              
+              <br>
+              <a href="/cate" class="btn bg-success text-white">Categorias</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div style="width: 16rem">
+            <div class="card-body">              
+              <br>
+              <a href="/material" class="btn bg-success text-white"> Materiais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div style="width: 16rem">
+            <div class="card-body">              
+              <br>
+              <a href="/cliente" class="btn bg-success text-white"> Mensagens Usuários</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    
+ 
+
+
+

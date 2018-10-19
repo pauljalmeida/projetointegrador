@@ -1,0 +1,51 @@
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+
+ 
+
+
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link href="css/style.css" rel="stylesheet">
+
+
+<body class="">
+  
+ 
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"> </div>
+        <div class="col-md-4">
+          <div class="card text-black p-2 bg-light" >
+            <div class="card-body m-0">
+              
+              <h4 align="center" style="color: blue" class="mb-2">Cadastrar senha</h4>
+              <form method="POST" action="/usuario-senha-primeiro-acesso" id="form" name="form">
+              <input type="hidden" name="id_usuario" id="id_usuario" value="<?php echo$_SESSION['id_usuario'];?>">
+              <input type="hidden" name="chave" id="chave" value="<?php echo$_SESSION['chave'];?>">
+              <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" name="senha" required>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-secondary btn-block">Cadastrar senha</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>

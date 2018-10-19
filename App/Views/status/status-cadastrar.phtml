@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/status-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/status" role="button">Listar Status</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/status" role="button">Alterar/Deletar Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="#" role="button">Versões Associadas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Usuários</a>
+            <li class="nav-item">
+              <a class="nav-link" href="portaria">Portarias</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a href="assinatura" class="nav-link">Assinaturas
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="relatorio" class="nav-link">Relatórios
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="assunto" class="nav-link">Assuntos
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="subassunto" class="nav-link">Subassuntos
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="tema" class="nav-link">Temas
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="subtema" class="nav-link">Subtemas
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="template" class="nav-link">Padrões de Formatação
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="servidor" class="nav-link">Servidores
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="aluno" class="nav-link">Alunos
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="entidade" class="nav-link">Instituições
+                <br> </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <h3 align="center">Cadastrar Status</h3>
+        <form action="status-cadastrar-salvar" method="post"> 
+        <br>  
+        <div class="form-group">
+          <label>Status: </label>        
+          <input type="text" name="nome" class="form-control" required> 
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <a class="btn btn-danger" href="/status">Cancelar Cadastro </a>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-success">Salvar Cadastro</button>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+</div>
+</html>

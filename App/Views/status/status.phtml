@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/status-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/status" role="button">Listar Status</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/status" role="button">Alterar/Deletar Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="#" role="button">Versões Associadas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Usuários</a>
+            <li class="nav-item">
+              <a class="nav-link" href="portaria">Portarias</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a href="assinatura" class="nav-link">Assinaturas
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="relatorio" class="nav-link">Relatórios
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="assunto" class="nav-link">Assuntos
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="subassunto" class="nav-link">Subassuntos
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="tema" class="nav-link">Temas
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="subtema" class="nav-link">Subtemas
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="template" class="nav-link">Padrões de Formatação
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="servidor" class="nav-link">Servidores
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="aluno" class="nav-link">Alunos
+                <br> </a>
+            </li>
+            <li class="nav-item">
+              <a href="entidade" class="nav-link">Instituições
+                <br> </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-10">
+            <h3 align="center">Relação de Status</h3>
+            <table class="table table-striped table-hover table-bordered">
+                <tr>        
+                    <td>Id Status</td>
+                    <td>Status</td>
+                    <td>Ações</td>
+                </tr> 
+
+                <?php 
+                /* $this->view->statuss é o array de statuss que foi passado pelo Controller, *após a excução do método select();
+                * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+                */ 
+
+                // calcula o numero de linhas retornadas pelo Select que filtou conforme pelo $inico e $itens por pagina
+               
+                
+                  //Exibe os Valores na tela
+                  foreach ($this->view->statuss as $status): 
+                  ?>
+                  <tr>
+                      <td><?php echo $status["id_status"]; ?></td>
+                      <td><?php echo $status["nome"]; ?></td>
+                      <td>
+                          <a href="status-editar/<?php echo $status["id_status"]; ?>"><span class='glyphicon glyphicon-pencil'></span></a>
+                          <a href="status-deletar-confirmacao/<?php echo $status["id_status"]; ?>"><span class='glyphicon glyphicon-remove'></span></a>
+                      </td>
+                    </tr>
+                    <?php endforeach;
+                  ?>
+            </table>
+            <?php 
+              //Verificar se está sendo passado na URL a página atual, senao é atribuido a pagina 
+              $pagina = (isset($_GET['pagina']))? $_GET['pagina'] : 1;
+              //definido no select do metodo statusListar()
+              $itens_por_pagina=11;
+              // calcula o numero de linhas retornadas pelo Select com todas as linhas da tabela aluno cadastradas no banco
+              
+              //definir numero de paginas
+              
+
+              //Verificar a pagina anterior e posterior
+              $pagina_anterior = $pagina - 1;
+              $pagina_posterior = $pagina + 1;
+            ?>
+            
+      </div>
+      </div>
+    </div>
+  </div>
+</html>
+

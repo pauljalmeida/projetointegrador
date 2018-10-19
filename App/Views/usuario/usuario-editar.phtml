@@ -1,0 +1,128 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br> 
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Usuários</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario" role="button">Listar Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/usuario" role="button">Alterar/Deletar Usuários</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Acessos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="acesso-cadastrar">Cadastrar Acesso</a></li>
+                <li><a href="acesso">Alterar/Deletar Acesso</a></li>
+                <li><a href="acesso">Listar todos os Acessos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <h3 align="center">Editar usuário</h3>
+          </br>
+    <form action="/usuario-editar-salvar/<?php echo $this->view->usuarios["id_usuario"]; ?>" method="post"> 
+    <div class="form-group">
+        <label>Tipo de Acesso: </label>
+        <select name="Id_acesso" class="form-control" style="height: 100%" required>
+        <?php 
+        /* $this->view->usuarios é o array de usuarios que foi passado pelo Controller, *após a excução do método select();
+        * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+        */ 
+            foreach ($this->view->acessos as $acesso):     
+            if (($this->view->usuarios["Id_acesso"])!=($acesso["Id_acesso"])){
+                    ?><option value="<?php echo $acesso["Id_acesso"];?>"><?php echo $acesso["nivel_usuario"];?></option>
+            <?php }
+            if (($this->view->usuarios["Id_acesso"])==($acesso["Id_acesso"])){
+                    ?><option value="<?php echo $acesso["Id_acesso"];?>" selected><?php echo $acesso["nivel_usuario"];?></option>
+            <?php } endforeach; 
+        ?>
+        </select>
+    </div>   
+    <div class="form-group">
+        <label>Primeiro nome: </label>      
+        <input type="text" name="primeiro_nome" class="form-control" value="<?php echo $this->view->usuarios["primeiro_nome"]; ?>" required> 
+    </div>
+    <div class="form-group">
+        <label>Sobrenome: </label>      
+        <input type="text" name="sobrenome" class="form-control" value="<?php echo $this->view->usuarios["sobrenome"]; ?>" required> 
+    </div>
+    <div class="form-group">
+        <label>Siape: </label>         
+        <input type="text" name="siape" class="form-control" value="<?php echo $this->view->usuarios["siape"]; ?>" required>  
+    </div> 
+    <div class="form-group">
+        <label>Cargo: </label>        
+        <input type="text" name="cargo" class="form-control" value="<?php echo $this->view->usuarios["cargo"]; ?>" require> 
+    </div> 
+    <div class="form-group">
+        <label>E_mail: </label>        
+        <input type="text" name="email" class="form-control" value="<?php echo $this->view->usuarios["email"]; ?>" require>  
+    </div>   
+      <br>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <a class="btn btn-danger" href="/usuario">Cancelar Edição </a>
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-success">Salvar Edição</button>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
