@@ -1,116 +1,197 @@
-ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
-ColsVisible_connform.ListSessions<|||>1<|||>0
-ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
-ColSort_connform.ListSessions<|||>1<|||>0,0
-CoolBand0Index<|||>3<|||>0
-CoolBand0Break<|||>3<|||>1
-CoolBand0Width<|||>3<|||>1360
-CoolBand1Index<|||>3<|||>1
-CoolBand1Break<|||>3<|||>1
-CoolBand1Width<|||>3<|||>1360
-MainWinOnMonitor<|||>3<|||>0
-MainWinTop<|||>3<|||>87
-ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
-ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
-ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
-ColSort_MainForm.ListDatabases<|||>1<|||>0,0
-ColWidths_MainForm.ListVariables<|||>1<|||>160,200,275
-ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
-ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
-ColSort_MainForm.ListVariables<|||>1<|||>0,0
-ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
-ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
-ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
-ColSort_MainForm.ListStatus<|||>1<|||>0,0
-ColWidths_MainForm.ListProcesses<|||>1<|||>70,115,80,80,80,50,50,10
-ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
-ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
-ColSort_MainForm.ListProcesses<|||>1<|||>0,1
-ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,215
-ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
-ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
-ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
-ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
-ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
-ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
-ColSort_MainForm.ListTables<|||>1<|||>0,0
-LastSessions<|||>1<|||>Laragon
-LastActiveSession<|||>1<|||>Laragon
-ColWidths_frmTableEditor.listColumns<|||>1<|||>38,100,156,90,60,65,50,119,130,140,100,100
-ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
-ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
-ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
-ColWidths_frmTableEditor.treeIndexes<|||>1<|||>289,100,80
-ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
-ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
-ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
-ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>87,80,100,80,80,80
-ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
-ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
-ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
-MainWinLeft<|||>3<|||>488
-FileDialogEncoding_MainForm<|||>3<|||>0
-ExportSQL_CreateDatabases<|||>3<|||>0
-ExportSQLAddComments<|||>3<|||>0
-ExportSQL_Filenames<|||>1<|||>C:\Users\HP\Desktop\projeto2.sql<{{{><}}}>C:\Users\HP\Desktop\projeto.sql<{{{><}}}>projetointegrador<{{{><}}}>
-ExportSQL_DataHow<|||>3<|||>0
-MainWinMaximized<|||>3<|||>1
-FileDialogEncoding_loaddataform<|||>3<|||>0
-loadfilename<|||>1<|||>C:\laragon\www\a\galeria_fotos.sql
-ExportSQL_CreateTables<|||>3<|||>1
-sqloutheight<|||>3<|||>160
-CSVImportParseMethod<|||>3<|||>1
-MemoEditorWidth<|||>3<|||>136
-MainWinWidth<|||>3<|||>840
-MainWinHeight<|||>3<|||>545
-SQLFile0<|||>1<|||>C:\laragon\www\loja\bd.sql
-SQLFile1<|||>1<|||>C:\laragon\www\Galeria\Album.sql
-SQLFile2<|||>1<|||>C:\laragon\www\dream\src\tables.sql
-SQLFile3<|||>1<|||>C:\laragon\www\ifc3\galeria.sql
-SQLFile4<|||>1<|||>C:\laragon\www\sistemalogin\banco_de_dados.sql
-SQLFile5<|||>1<|||>C:\laragon\www\imagem\imagem.sql
-ColWidths_frmInsertFiles.ListColumns<|||>1<|||>100,80,295
-ColsVisible_frmInsertFiles.ListColumns<|||>1<|||>0,1,2
-ColPositions_frmInsertFiles.ListColumns<|||>1<|||>0,1,2
-ColSort_frmInsertFiles.ListColumns<|||>1<|||>-1,0
-ColWidths_frmInsertFiles.ListFiles<|||>1<|||>325,70,80
-ColsVisible_frmInsertFiles.ListFiles<|||>1<|||>0,1,2
-ColPositions_frmInsertFiles.ListFiles<|||>1<|||>0,1,2
-ColSort_frmInsertFiles.ListFiles<|||>1<|||>0,0
-Servers\Laragon\SessionCreated<|||>1<|||>2017-02-14 13:41:54
-Servers\Laragon\Host<|||>1<|||>localhost
-Servers\Laragon\WindowsAuth<|||>3<|||>0
-Servers\Laragon\User<|||>1<|||>root
-Servers\Laragon\Password<|||>1<|||>9
-Servers\Laragon\LoginPrompt<|||>3<|||>0
-Servers\Laragon\Port<|||>1<|||>3306
-Servers\Laragon\NetType<|||>3<|||>0
-Servers\Laragon\Compressed<|||>3<|||>0
-Servers\Laragon\LocalTimeZone<|||>3<|||>0
-Servers\Laragon\QueryTimeout<|||>3<|||>0
-Servers\Laragon\KeepAlive<|||>3<|||>0
-Servers\Laragon\FullTableStatus<|||>3<|||>1
-Servers\Laragon\Databases<|||>1<|||>
-Servers\Laragon\Comment<|||>1<|||>
-Servers\Laragon\StartupScriptFilename<|||>1<|||>
-Servers\Laragon\SSHtunnelHost<|||>1<|||>
-Servers\Laragon\SSHtunnelHostPort<|||>3<|||>0
-Servers\Laragon\SSHtunnelUser<|||>1<|||>
-Servers\Laragon\SSHtunnelPassword<|||>1<|||>7
-Servers\Laragon\SSHtunnelTimeout<|||>3<|||>4
-Servers\Laragon\SSHtunnelPrivateKey<|||>1<|||>
-Servers\Laragon\SSHtunnelPort<|||>3<|||>3307
-Servers\Laragon\SSL_Active<|||>3<|||>0
-Servers\Laragon\SSL_Key<|||>1<|||>
-Servers\Laragon\SSL_Cert<|||>1<|||>
-Servers\Laragon\SSL_CA<|||>1<|||>
-Servers\Laragon\SSL_Cipher<|||>1<|||>
-Servers\Laragon\RefusedCount<|||>3<|||>4
-Servers\Laragon\ServerVersionFull<|||>1<|||>5.7.19 - MySQL Community Server (GPL)
-Servers\Laragon\ConnectCount<|||>3<|||>35
-Servers\Laragon\ServerVersion<|||>3<|||>50719
-Servers\Laragon\LastConnect<|||>1<|||>2018-08-22 19:35:31
-Servers\Laragon\lastUsedDB<|||>1<|||>projetointegrador
-Servers\Laragon\FavoriteObjects<|||>1<|||>information_schema||CHARACTER_SETS<{{{><}}}>
-Servers\Laragon\QueryHistory\1<|||>1<|||>2018-07-16 13:07:15|a|79|-- phpMyAdmin SQL Dump<{{{><}}}>-- version 2.8.0.3<{{{><}}}>-- http://www.phpmyadmin.net<{{{><}}}>-- <{{{><}}}>-- Servidor: localhost<{{{><}}}>-- Tempo de Geração: Jun 26, 2007 as 03:22 PM<{{{><}}}>-- Versão do Servidor: 5.0.20<{{{><}}}>-- Versão do PHP: 5.1.2<{{{><}}}>-- <{{{><}}}>-- Banco de Dados: `galeria_fotos`<{{{><}}}>-- <{{{><}}}><{{{><}}}>-- --------------------------------------------------------<{{{><}}}><{{{><}}}>-- <{{{><}}}>-- Estrutura da tabela `galeria`<{{{><}}}>-- <{{{><}}}><{{{><}}}>CREATE TABLE `galeria` (<{{{><}}}>  `id` int(8) NOT NULL auto_increment,<{{{><}}}>  `nome` varchar(120) collate latin1_general_ci default NULL,<{{{><}}}>  `hash` varchar(12) collate latin1_general_ci default NULL,<{{{><}}}>  `data` varchar(10) collate latin1_general_ci default NULL,<{{{><}}}>  `descr` text collate latin1_general_ci,<{{{><}}}>  PRIMARY KEY  (`id`)<{{{><}}}>) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=5 ;<{{{><}}}><{{{><}}}>-- <{{{><}}}>-- Extraindo dados da tabela `galeria`<{{{><}}}>-- <{{{><}}}><{{{><}}}><{{{><}}}>-- --------------------------------------------------------<{{{><}}}><{{{><}}}>-- <{{{><}}}>-- Estrutura da tabela `galeria_fotos`<{{{><}}}>-- <{{{><}}}><{{{><}}}>CREATE TABLE `galeria_fotos` (<{{{><}}}>  `id` int(6) NOT NULL auto_increment,<{{{><}}}>  `thumb` varchar(120) collate latin1_general_ci default NULL,<{{{><}}}>  `location` varchar(110) collate latin1_general_ci default NULL,<{{{><}}}>  `hash` varchar(12) collate latin1_general_ci default NULL,<{{{><}}}>  PRIMARY KEY  (`id`)<{{{><}}}>) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=31 ;<{{{><}}}><{{{><}}}>-- <{{{><}}}>-- Extraindo dados da tabela `galeria_fotos`<{{{><}}}>-- <{{{><}}}><{{{><}}}><{{{><}}}>-- --------------------------------------------------------<{{{><}}}><{{{><}}}>-- <{{{><}}}>-- Estrutura da tabela `tbl_usuarios`<{{{><}}}>-- <{{{><}}}><{{{><}}}>CREATE TABLE `tbl_usuarios` (<{{{><}}}>  `id` int(5) NOT NULL auto_increment,<{{{><}}}>  `login` varchar(50) collate latin1_general_ci default NULL,<{{{><}}}>  `senha` varchar(50) collate latin1_general_ci default NULL,<{{{><}}}>  PRIMARY KEY  (`id`)<{{{><}}}>) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=2 ;<{{{><}}}><{{{><}}}>-- <{{{><}}}>-- Extraindo dados da tabela `tbl_usuarios`<{{{><}}}>-- <{{{><}}}><{{{><}}}>INSERT INTO `tbl_usuarios` VALUES (1, 'admin', 'admin');<{{{><}}}>
-Servers\Laragon\QueryHistory\2<|||>1<|||>2018-07-17 17:43:41|galeria|47|CREATE TABLE `galeria` (<{{{><}}}> `id` int(3) unsigned zerofill NOT NULL auto_increment,<{{{><}}}> `nome` varchar(255) NOT NULL default '',<{{{><}}}> `data` varchar(10) NOT NULL default '',<{{{><}}}> `local` varchar(255) NOT NULL default '',<{{{><}}}> `qts_fotos` char(3) NOT NULL default '',<{{{><}}}> `pasta` varchar(255) NOT NULL default '',<{{{><}}}> `foto01` varchar(255) NOT NULL default '',<{{{><}}}> PRIMARY KEY  (`id`)<{{{><}}}>);
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+CREATE DATABASE IF NOT EXISTS `projetointegrador` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `projetointegrador`;
+
+CREATE TABLE IF NOT EXISTS `acesso` (
+  `Id_acesso` int(11) NOT NULL AUTO_INCREMENT,
+  `nivel_usuario` int(11) NOT NULL,
+  `nome_nivel` varchar(30) NOT NULL,
+  PRIMARY KEY (`Id_acesso`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `acesso` DISABLE KEYS */;
+REPLACE INTO `acesso` (`Id_acesso`, `nivel_usuario`, `nome_nivel`) VALUES
+	(1, 1, 'Administrador'),
+	(2, 2, 'Usuário Comum');
+/*!40000 ALTER TABLE `acesso` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `administrador` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(120) DEFAULT NULL,
+  `senha` varchar(120) DEFAULT NULL,
+  `ativo` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `administrador` DISABLE KEYS */;
+REPLACE INTO `administrador` (`id`, `email`, `senha`, `ativo`) VALUES
+	(1, 'pauljalmeida@gmail.com', '180904', '1');
+/*!40000 ALTER TABLE `administrador` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `categoria` (
+  `id_categoria` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(120) DEFAULT NULL,
+  PRIMARY KEY (`id_categoria`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
+REPLACE INTO `categoria` (`id_categoria`, `nome`) VALUES
+	(1, 'Aberturas'),
+	(2, 'Elétrica'),
+	(4, 'Ferramentas'),
+	(6, 'Iluminação'),
+	(7, 'Jardinagem'),
+	(8, 'Material Bruto'),
+	(9, 'Material de Pintura'),
+	(10, 'Metais Sanitários'),
+	(11, 'Pisos'),
+	(12, 'Tintas');
+/*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `clientes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(120) NOT NULL,
+  `email` varchar(120) NOT NULL,
+  `descricao` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `clientes` DISABLE KEYS */;
+REPLACE INTO `clientes` (`id`, `nome`, `email`, `descricao`) VALUES
+	(2, 'giovanna', 'gigi@gigi', '<p>filha linda&nbsp;<img alt="cheeky" src="http://cdn.ckeditor.com/4.7.1/full/plugins/smiley/images/tongue_smile.png" style="height:23px; width:23px" title="cheeky" /><img alt="" src="C:\\Users\\Paul\\Desktop" /></p>\r\n'),
+	(3, 'Micheli', 'micheli@micheli.com.br', '<p><span style="color:#c0392b"><img alt="heart" src="http://cdn.ckeditor.com/4.7.1/full/plugins/smiley/images/heart.png" style="height:23px; width:23px" title="heart" />minha esposa</span></p>\r\n'),
+	(4, 'Heitor', 'heitor@heitor.com.br', '<p>bebez&atilde;o<img alt="smiley" src="http://cdn.ckeditor.com/4.7.1/full/plugins/smiley/images/regular_smile.png" style="height:23px; width:23px" title="smiley" /></p>\r\n');
+/*!40000 ALTER TABLE `clientes` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `duvida` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(120) DEFAULT NULL,
+  `telefone` varchar(40) DEFAULT NULL,
+  `email` varchar(120) DEFAULT NULL,
+  `duvida` text,
+  `id_produto` int(11) DEFAULT NULL,
+  `id_tipoduvida` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_produto` (`id_produto`),
+  KEY `id_tipoduvida` (`id_tipoduvida`),
+  CONSTRAINT `duvida_ibfk_1` FOREIGN KEY (`id_produto`) REFERENCES `produtos` (`id`),
+  CONSTRAINT `duvida_ibfk_2` FOREIGN KEY (`id_tipoduvida`) REFERENCES `tipo_duvida` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `duvida` DISABLE KEYS */;
+/*!40000 ALTER TABLE `duvida` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `nivel` (
+  `Id_nivel` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(150) NOT NULL,
+  PRIMARY KEY (`Id_nivel`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `nivel` DISABLE KEYS */;
+REPLACE INTO `nivel` (`Id_nivel`, `nome`) VALUES
+	(1, '1'),
+	(2, '2'),
+	(3, '3');
+/*!40000 ALTER TABLE `nivel` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `produtos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `descricao` text,
+  `nome_produto` varchar(120) DEFAULT NULL,
+  `imagem` varchar(120) DEFAULT NULL,
+  `id_categoria` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_categoria` (`id_categoria`),
+  CONSTRAINT `produtos_ibfk_1` FOREIGN KEY (`id_categoria`) REFERENCES `categoria` (`id_categoria`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `produtos` DISABLE KEYS */;
+REPLACE INTO `produtos` (`id`, `descricao`, `nome_produto`, `imagem`, `id_categoria`) VALUES
+	(7, '<p>Janela</p>\r\n', 'Janela', 'janela.jfif', 1),
+	(8, '<p>fio</p>\r\n', 'Fio eletrico', '1534550356_fio.jfif', 2),
+	(10, '<p>Martelo</p>\r\n', 'Martelo', '1534549186_martelo.jfif', 4),
+	(11, '<p>Lampada</p>\r\n', 'Lampada', 'lampada.jfif', 6),
+	(12, '<p>Maquina</p>\r\n', 'Maquina de cortar grama', 'maquina.jfif', 7),
+	(13, '<p>Pincel</p>\r\n', 'Pincel', 'pincel.jfif', 9),
+	(14, '<p>Cimento</p>\r\n', 'Cimento', 'cimento.png', 8),
+	(15, '<p>Torneira</p>\r\n', 'Torneira', 'torneira.jfif', 10),
+	(16, '<p>Porcelanato</p>\r\n', 'Porcelanato', 'porcelanato.jfif', 11),
+	(17, '<p>Tintas</p>\r\n', 'Tintas', 'tinta.jfif', 12),
+	(18, '<p>testando material</p>\r\n', 'material teste', 'grilo.jpg', 1);
+/*!40000 ALTER TABLE `produtos` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `status` (
+  `id_status` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_status`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `status` DISABLE KEYS */;
+REPLACE INTO `status` (`id_status`, `nome`) VALUES
+	(1, 'Vigente'),
+	(2, 'Alterada'),
+	(3, 'Revogada'),
+	(4, 'Retificada'),
+	(5, 'Expirada'),
+	(6, 'Em edição'),
+	(7, 'Esperando Assinatura do Diretor'),
+	(8, 'Pronta para publicar'),
+	(9, 'Publicada'),
+	(10, 'paul');
+/*!40000 ALTER TABLE `status` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `tipo_duvida` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(120) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `tipo_duvida` DISABLE KEYS */;
+REPLACE INTO `tipo_duvida` (`id`, `nome`) VALUES
+	(1, 'duvida'),
+	(2, 'critica'),
+	(3, 'sugestão'),
+	(4, 'elogio');
+/*!40000 ALTER TABLE `tipo_duvida` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `usuario` (
+  `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
+  `sobrenome` varchar(150) NOT NULL,
+  `siape` varchar(20) NOT NULL,
+  `cargo` varchar(60) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `senha` varchar(40) NOT NULL,
+  `primeiro_nome` varchar(50) NOT NULL,
+  `Id_acesso` int(11) NOT NULL,
+  `verifique` int(11) NOT NULL,
+  `ativo` int(11) NOT NULL,
+  PRIMARY KEY (`id_usuario`)
+) ENGINE=MyISAM AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
+REPLACE INTO `usuario` (`id_usuario`, `sobrenome`, `siape`, `cargo`, `email`, `senha`, `primeiro_nome`, `Id_acesso`, `verifique`, `ativo`) VALUES
+	(27, 'Almeida', '123', 'ti', 'pauljalmeida@gmail.com', 'e92846d384d4e8202a9bab1cb8883077', 'Paul', 1, 1, 1),
+	(35, 'Almeida', '250', 'contadora', 'michelicfdealmeida@gmail.com', 'e92846d384d4e8202a9bab1cb8883077', 'Micheli', 1, 1, 1),
+	(34, 'Saraiva', '234', 'Aluno', 'rogerio@rogerio.com.br', '81dc9bdb52d04dc20036dbd8313ed055', 'Rogerio', 1, 1, 1);
+/*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
+
+CREATE TABLE IF NOT EXISTS `visitas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_produto` int(11) DEFAULT NULL,
+  `contador_de_visitas` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_produto` (`id_produto`),
+  CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`id_produto`) REFERENCES `produtos` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*!40000 ALTER TABLE `visitas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `visitas` ENABLE KEYS */;
+
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
