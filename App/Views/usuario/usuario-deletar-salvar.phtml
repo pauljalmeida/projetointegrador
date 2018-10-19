@@ -11,27 +11,41 @@ Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo 
 else:
 header("Location: login");
 endif;
-?> <br>
-<div class="py-5">
+?><br> 
+  <div class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="btn bg-success text-white" href="/material" role="button">
-                <i></i>&nbsp;Material listar editar deletar</a>
+              <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Usuários</a>
             </li>
             <li class="nav-item">
-              <a class="btn bg-success text-white" href="/material-cadastrar" role="button">Material Cadastrar</a>
+              <a class="btn bg-success text-white" href="/usuario" role="button">Listar Usuários</a>
             </li>
-            
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/usuario" role="button">Alterar/Deletar Usuários</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Acessos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="acesso-cadastrar">Cadastrar Acesso</a></li>
+                <li><a href="acesso">Alterar/Deletar Acesso</a></li>
+                <li><a href="acesso">Listar todos os Acessos</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-<div class="col-md-2">
-<ul class="nav nav-pills flex-column">
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
           <li class="nav-item">
               <a href="/inicia-sessao" class="nav-link">
                 <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
@@ -52,35 +66,14 @@ endif;
               <a href="cliente" class="nav-link">Mensagens do Cliente</a>
             </li>  
           </ul>
-</div>
+        </div>
+        <div class="col-md-10">
+          <h4>Concluído</h4>
+          <h4 style="color: green"><p>O usuário foi excluído do banco de dados.</p><br /></h4>
+          <p><a href="/usuario" class="btn btn-primary">Voltar para a relação de usuários</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="col-md-10">
-<h4>Cadastro de Materiais</h4>
-<form action="material-cadastrar-salvar" method="post" enctype="multipart/form-data">   
-    <div class="form-group">
-        <label>Nome do material: </label>        
-        <input type="text" name="nome" class="form-control"> 
-    </div>
-    <div class="form-group">
-        <label>Descrição: </label>      
-        <textarea name="descricao" id="descricao"></textarea>
-    </div>
-    <div class="form-group">
-        <label>Categoria: </label>    
-        <select class="form-control" name="categoria">
-            <?php
-            foreach ($this->view->categorias as $categoria) {
-                echo "<option value='".$categoria["id_categoria"]."'>".$categoria["nome"]."</option>";
-            }
-            ?>          
-            
 
-        </select>
-    </div>
-    <div class="form-group">
-        <label>imagem: </label>    
-        <input type="file" name="imagem" class="form-control"> 
-    </div>    
-    <button type="submit" class="btn btn-success">Cadastrar</button>
-</form>
-</div>

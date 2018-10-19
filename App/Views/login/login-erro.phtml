@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
@@ -12,11 +12,15 @@
   
 
   
-</head>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
 
-<body>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link href="css/style.css" rel="stylesheet">
+
   
- 
+
+
   <div class="py-1">
     <div class="container">
       <div class="row">
@@ -24,18 +28,18 @@
         <div class="col-md-4">
           <div class="card text-black p-2 bg-light" >
             <div class="card-body m-0">
-              
+             
               <h4 align="center" style="color: blue" class="mb-2">Login</h4>
+              <h6 align="center" style="color: red" class="mb-2">Matricula ou senha incorretos!</h6>
               <form method="POST" action="/inicia-sessao" id="form" name="form">
                 <div class="form-group">
-                  <label for="siape">Usuário</label>
+                  <label for="siape">Siape</label>
                   <input type="text" class="form-control" id="siape" name="siape" required>
-                </div>
-                <div class="form-group">
+                  <div class="form-group">
                     <label for="senha">Senha</label>
                     <input type="password" class="form-control" id="senha" name="senha" required>
                     <h6 align="center" class="mb-2">Esqueceu sua senha? <a href="/login-esqueceu-senha" class="mb-2">Clique aqui</a></h6>
-                </div>
+                  </div>
                   <br>
                   <button type="submit" class="btn btn-secondary btn-block">Entrar</button>
                 </form>
@@ -46,12 +50,5 @@
       </div>
     </div>
     <br>
-  
+    <!-- /.main-wrapper -->
  
-
-</body>
-</html> 
-
-
-
-

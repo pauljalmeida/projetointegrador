@@ -1,0 +1,133 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br> 
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/acesso-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar tipos de Acesso</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/acesso" role="button">Tipos de Acessos</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/acesso" role="button">Alterar/Deletar Acesso</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Usuários
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="usuario-cadastrar">Cadastrar Usuário</a></li>
+                <li><a href="usuario">Alterar/Deletar Usuário</a></li>
+                <li><a href="usuario">Listar todos Usuário</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="col-md-10">
+            <h3 align="center">Níveis de acesso</h3>
+            <table class="table table-striped table-hover table-bordered">
+                <tr>        
+                    <td>Nível de acesso</td>
+                    <td>Tipo de Acesso</td>
+                    <td>Editar</td>
+                </tr> 
+
+                <?php 
+                /* $this->view->acessos é o array de acessos que foi passado pelo Controller, *após a excução do método select();
+                * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+                */ 
+                // calcula o numero de linhas retornadas pelo Select que filtou conforme pelo $inico e $itens por pagina
+                
+                
+                  //Exibe os Valores na tela
+                  foreach ($this->view->acessos as $acesso): 
+                  ?>
+                  <tr>
+                      <td><?php echo $acesso["nivel_usuario"]; ?></td>
+                      <td><?php echo $acesso["nome_nivel"]; ?></td>
+                      <td>
+                          <a href="acesso-editar/<?php echo $acesso["Id_acesso"]; ?>"><span class='glyphicon glyphicon-pencil'></span></a>
+                          <a href="acesso-deletar-confirmacao/<?php echo $acesso["Id_acesso"]; ?>"><span class='glyphicon glyphicon-remove'></span></a>
+                      </td>
+                    </tr>
+                    <?php endforeach;
+                 ?>
+            </table>
+            <?php 
+              //Verificar se está sendo passado na URL a página atual, senao é atribuido a pagina 
+              $pagina = (isset($_GET['pagina']))? $_GET['pagina'] : 1;
+              //definido no select do metodo acessoListar()
+              $itens_por_pagina=11;
+              // calcula o numero de linhas retornadas pelo Select com todas as linhas da tabela acesso cadastradas no banco
+             
+              //definir numero de paginas
+              
+
+              //Verificar a pagina anterior e posterior
+              $pagina_anterior = $pagina - 1;
+              $pagina_posterior = $pagina + 1;
+            ?>
+            <nav class="text-center">
+              <ul class="pagination">
+                <li>
+                  <?php
+                  if($pagina_anterior != 0){ ?>
+                    
+                  <?php }else{ ?>
+                    
+                <?php }  ?>
+                </li>
+                
+                <li>
+                  
+                </li>
+              </ul>
+            </nav>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,129 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br> 
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Usuários</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario" role="button">Listar Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/usuario" role="button">Alterar/Deletar Usuários</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Acessos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="acesso-cadastrar">Cadastrar Acesso</a></li>
+                <li><a href="acesso">Alterar/Deletar Acesso</a></li>
+                <li><a href="acesso">Listar todos os Acessos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <h3 align="center">Cadastrar usuário</h3>
+          <form action="usuario-cadastrar-salvar" method="post"> 
+          <br> 
+          <div class="form-group">
+            <label>Tipo de Acesso: </label>
+            <select name="Id_acesso" class="form-control" style="height: 100%" required>
+              <option value="">Selecione</option>
+              <?php 
+              /* $this->view->usuarios é o array de usuarios que foi passado pelo Controller, *após a excução do método select();
+              * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+              */ 
+                foreach ($this->view->acessos as $acesso):?>
+                  <option value="<?php echo $acesso["Id_acesso"];?>"><?php echo $acesso["nome_nivel"];?></option>
+                <?php endforeach;?>
+            </select>
+          </div> 
+          <div class="form-group">
+            <label>Primeiro Nome: </label>        
+            <input type="text" name="primeiro_nome" class="form-control" required> 
+          </div>
+          <div class="form-group">
+            <label>Sobrenome: </label>        
+            <input type="text" name="sobrenome" class="form-control" required> 
+          </div>
+
+          <div class="form-group">
+            <label>Matricula: </label>        
+            <input type="text" name="siape" class="form-control" required> 
+          </div> 
+          <div class="form-group">
+            <label>Cargo: </label>        
+            <input type="text" name="cargo" class="form-control" required> 
+          </div> 
+          <div class="form-group">
+            <label>E-mail: </label>        
+            <input type="text" name="email" class="form-control" required> 
+          </div>   
+          <br>
+          <div class="row">
+           <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-2">
+            <a class="btn btn-danger" href="/usuario">Cancelar Cadastro </a>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-success">Salvar Cadastro</button>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+</div>
+
+

@@ -1,0 +1,87 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br> 
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Usuários</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario" role="button">Listar Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/usuario" role="button">Alterar/Deletar Usuários</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Acessos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="acesso-cadastrar">Cadastrar Acesso</a></li>
+                <li><a href="acesso">Alterar/Deletar Acesso</a></li>
+                <li><a href="acesso">Listar todos os Acessos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>  
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <h3>Informações salvas</h3>
+          <h4><p>O usuário foi salvo no banco de dados.</p></h4>
+          <h4 style="font-weight: bold;"><p>Anote a senha gerada automaticamente: <?php echo $_SESSION['sn'];?></p></h4>
+          <h4><p>O usuário deverá alterá-la no primeiro acesso ao sistema.</h4>
+          <div class="row">
+            <div class="col-md-3">
+              <a class="btn btn-success"" href="usuario">Relação de usuarios</a>
+            </div>
+            <div class="col-md-3">
+              <a align="center" class="btn btn-secondary" href="/usuario-cadastrar">Cadastrar outro</a>
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
+   </div>
+</html>

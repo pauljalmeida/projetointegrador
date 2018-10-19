@@ -1,0 +1,118 @@
+<?php
+if(!isset($_SESSION))
+{
+   session_start();
+}
+if ($_SESSION['logado']):
+?>	
+Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="/"><button type="button" class="btn btn-default">clique aqui.</button></a>
+<br>
+<?php
+else:
+header("Location: login");
+endif;
+?><br> 
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
+                <i></i>&nbsp;Cadastrar Usuários</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn bg-success text-white" href="/usuario" role="button">Listar Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn bg-success text-white" href="/usuario" role="button">Alterar/Deletar Usuários</a>
+            </li>
+            <li class="dropdown">
+              <a class="btn bg-success text-white dropdown-toggle" data-toggle="dropdown" href="#">Acessos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="acesso-cadastrar">Cadastrar Acesso</a></li>
+                <li><a href="acesso">Alterar/Deletar Acesso</a></li>
+                <li><a href="acesso">Listar todos os Acessos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a href="/inicia-sessao" class="nav-link">
+                <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
+            </li>            
+            <li class="nav-item">
+              <a href="usuario" class="nav-link">Gerenciar usuários</a>
+            </li>
+            <li class="nav-item">
+              <a href="acesso" class="nav-link">Gerenciar acessos</a>
+            </li>            
+            <li class="nav-item">
+              <a href="cate" class="nav-link">Gerenciar categorias</a>
+            </li>            
+            <li class="nav-item">
+              <a href="material" class="nav-link">Gerenciar Material</a>
+            </li>
+            <li class="nav-item">
+              <a href="cliente" class="nav-link">Mensagens do Cliente</a>
+            </li>            
+          </ul>
+        </div>
+        <div class="col-md-10">
+            <h3 align="center">Relação de usuarios</h3>
+            <table class="table table-striped table-hover table-bordered">
+                <tr>        
+                    <td>Nome</td>
+                    <td>Matricula</td>
+                    <td>Cargo</td>
+                    <td>E-mail</td>
+                    <td>Tipo de Acesso</td>
+                    <td>Ativo</td>
+                    <td>Ações</td>
+                </tr> 
+
+                <?php 
+                /* $this->view->usuarios é o array de usuarios que foi passado pelo Controller, *após a excução do método select();
+                * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+                */ 
+
+                // calcula o numero de linhas retornadas pelo Select que filtou conforme pelo $inico e $itens por pagina
+                
+                  //Exibe os Valores na tela
+                  foreach ($this->view->usuarios as $usuario): 
+                  ?>
+                  <tr>
+                      <td><?php echo $usuario["primeiro_nome"]; ?></td>
+                      <td><?php echo $usuario["siape"]; ?></td>
+                      <td><?php echo $usuario["cargo"]; ?></td>
+                      <td><?php echo $usuario["email"]; ?></td>
+                      <td><?php echo $usuario["Id_acesso"]; ?></td>
+                      <td><?php echo $usuario["ativo"]; ?></td>
+                      <td>
+                          <a href="usuario-editar/<?php echo $usuario["id_usuario"]; ?>"><span class='glyphicon glyphicon-pencil'></span></a>
+                          <a href="usuario-deletar-confirmacao/<?php echo $usuario["id_usuario"]; ?>"><span class='glyphicon glyphicon-remove'></span></a>
+                      </td>
+                    </tr>
+                    <?php endforeach;
+                  ?>
+            </table>
+            
+                  
+                
+                </li>
+              </ul>
+            </nav>   
+        </div>
+      </div>
+    </div>
+  </div>
+

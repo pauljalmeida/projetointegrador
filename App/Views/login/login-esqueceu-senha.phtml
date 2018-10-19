@@ -1,22 +1,23 @@
 
 
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
 
   
-
-  
 </head>
 
-<body>
+
   
- 
+  
+
+
   <div class="py-1">
     <div class="container">
       <div class="row">
@@ -24,20 +25,13 @@
         <div class="col-md-4">
           <div class="card text-black p-2 bg-light" >
             <div class="card-body m-0">
-              
-              <h4 align="center" style="color: blue" class="mb-2">Login</h4>
-              <form method="POST" action="/inicia-sessao" id="form" name="form">
+              <h4 align="center" style="color: blue" class="mb-2">Recuperar Senha</h4>
+              <form method="POST" action="/login-recuperar-senha" id="form" name="form">
                 <div class="form-group">
-                  <label for="siape">Usuário</label>
-                  <input type="text" class="form-control" id="siape" name="siape" required>
-                </div>
-                <div class="form-group">
-                    <label for="senha">Senha</label>
-                    <input type="password" class="form-control" id="senha" name="senha" required>
-                    <h6 align="center" class="mb-2">Esqueceu sua senha? <a href="/login-esqueceu-senha" class="mb-2">Clique aqui</a></h6>
-                </div>
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Seu e-mail" required>
                   <br>
-                  <button type="submit" class="btn btn-secondary btn-block">Entrar</button>
+                  <button type="submit" class="btn btn-secondary btn-block">Recuperar senha</button>
                 </form>
               </div>
             </div>
@@ -46,11 +40,10 @@
       </div>
     </div>
     <br>
-  
- 
+   
 
-</body>
-</html> 
+  
+
 
 
 

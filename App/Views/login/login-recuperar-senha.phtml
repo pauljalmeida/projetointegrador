@@ -1,0 +1,33 @@
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+
+
+  </header>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"> </div>
+        <div class="col-md-6">
+          <div class="card text-black p-10 bg-light" >
+            <div class="card-body m-0">
+              <h4 align="center" style="color: blue" class="mb-2"><span class="fa fa-key" aria-hidden="true"> A chave de acesso foi gerada com sucessso!</h4></span>
+              <br>
+              <form method="POST" action="/retificar-senha" id="form" name="form">
+                <div class="form-group">
+                <input type="hidden" name="chave" id="chave" value="<?php echo$_SESSION['chave'];?>">
+                  <button type="submit" class="btn btn-secondary btn-block">Continuar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+   
