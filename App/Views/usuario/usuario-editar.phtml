@@ -80,10 +80,10 @@ endif;
         */ 
             foreach ($this->view->acessos as $acesso):     
             if (($this->view->usuarios["Id_acesso"])!=($acesso["Id_acesso"])){
-                    ?><option value="<?php echo $acesso["Id_acesso"];?>"><?php echo $acesso["nivel_usuario"];?></option>
+                    ?><option value="<?php echo $acesso["Id_acesso"];?>"><?php echo $acesso["nome_nivel"];?></option>
             <?php }
             if (($this->view->usuarios["Id_acesso"])==($acesso["Id_acesso"])){
-                    ?><option value="<?php echo $acesso["Id_acesso"];?>" selected><?php echo $acesso["nivel_usuario"];?></option>
+                    ?><option value="<?php echo $acesso["Id_acesso"];?>" selected><?php echo $acesso["nome_nivel"];?></option>
             <?php } endforeach; 
         ?>
         </select>
@@ -97,7 +97,7 @@ endif;
         <input type="text" name="sobrenome" class="form-control" value="<?php echo $this->view->usuarios["sobrenome"]; ?>" required> 
     </div>
     <div class="form-group">
-        <label>Siape: </label>         
+        <label>Matricula: </label>         
         <input type="text" name="siape" class="form-control" value="<?php echo $this->view->usuarios["siape"]; ?>" required>  
     </div> 
     <div class="form-group">

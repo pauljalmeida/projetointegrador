@@ -30,14 +30,14 @@ class ComposerStaticInit05221f7ae1caebcd9c5e2c9d37d8b38e
         array (
             'SON' => 
             array (
-                0 => 'C:\\laragon\\www\\gotasdesabor\\vendor',
+                0 => 'C:\\laragon\\www\\projetointegrador2\\vendor',
             ),
         ),
         'A' => 
         array (
             'App' => 
             array (
-                0 => 'C:\\laragon\\www\\gotasdesabor',
+                0 => 'C:\\laragon\\www\\projetointegrador2',
             ),
         ),
     );

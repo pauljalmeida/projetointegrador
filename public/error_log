@@ -1,0 +1,687 @@
+[24-Sep-2018 23:43:00 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:43:03 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:43:05 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:47:54 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:47:58 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:48:00 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:50:57 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:52:50 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:52:55 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:54:58 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:55:06 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:56:58 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:57:00 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:57:01 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:58:06 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:58:08 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:58:10 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[24-Sep-2018 23:58:48 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 03:57:09 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 11:42:21 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 19:38:48 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 19:38:51 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 19:47:25 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 19:47:30 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 19:49:38 America/Sao_Paulo] PHP Fatal error:  Class 'App\Init' not found in /home/pauljalm/public_html/public/index.php on line 7
+[25-Sep-2018 20:04:54 America/Sao_Paulo] PHP Fatal error:  Call to undefined function init_set() in /home/pauljalm/public_html/public/index.php on line 4
+[25-Sep-2018 20:07:07 America/Sao_Paulo] PHP Fatal error:  Call to undefined function init_set() in /home/pauljalm/public_html/public/index.php on line 4
+[25-Sep-2018 20:07:09 America/Sao_Paulo] PHP Fatal error:  Call to undefined function init_set() in /home/pauljalm/public_html/public/index.php on line 4
+[25-Sep-2018 20:08:34 America/Sao_Paulo] PHP Fatal error:  Call to undefined function init_set() in /home/pauljalm/public_html/public/index.php on line 4
+[25-Sep-2018 20:09:43 America/Sao_Paulo] PHP Fatal error:  Call to undefined function init_set() in /home/pauljalm/public_html/public/index.php on line 4
+[25-Sep-2018 20:20:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[25-Sep-2018 20:21:03 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:03 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar.phtml on line 4
+[25-Sep-2018 20:21:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar.phtml on line 4
+[25-Sep-2018 20:21:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar.phtml on line 4
+[25-Sep-2018 20:21:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:06 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar.phtml on line 4
+[25-Sep-2018 20:21:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:11 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar-salvar.phtml on line 4
+[25-Sep-2018 20:21:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:12 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar-salvar.phtml on line 4
+[25-Sep-2018 20:21:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:12 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar-salvar.phtml on line 4
+[25-Sep-2018 20:21:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:21:13 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-editar-salvar.phtml on line 4
+[25-Sep-2018 20:21:14 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[25-Sep-2018 20:21:26 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[25-Sep-2018 20:23:29 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:25:38 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[25-Sep-2018 20:25:45 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[25-Sep-2018 20:25:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:31:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:31:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[25-Sep-2018 20:31:26 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[25-Sep-2018 20:31:26 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 12
+[25-Sep-2018 20:31:30 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material-cadastrar.phtml on line 4
+[25-Sep-2018 20:31:30 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material-cadastrar.phtml on line 12
+[25-Sep-2018 20:31:34 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[25-Sep-2018 20:31:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[25-Sep-2018 20:31:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[25-Sep-2018 20:31:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[25-Sep-2018 20:31:40 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 4
+[25-Sep-2018 20:31:40 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 12
+[25-Sep-2018 20:31:43 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[25-Sep-2018 20:31:43 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 12
+[25-Sep-2018 20:31:52 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[25-Sep-2018 20:31:52 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[25-Sep-2018 20:32:02 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[25-Sep-2018 20:32:02 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[25-Sep-2018 20:33:44 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[25-Sep-2018 20:33:44 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[25-Sep-2018 20:33:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:34:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[25-Sep-2018 20:34:13 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[25-Sep-2018 20:34:15 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[25-Sep-2018 20:34:15 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[25-Sep-2018 20:34:35 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 4
+[25-Sep-2018 20:34:35 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 12
+[25-Sep-2018 20:34:42 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[25-Sep-2018 20:34:42 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 12
+[26-Sep-2018 12:12:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:12:06 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[26-Sep-2018 12:16:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:16:37 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[26-Sep-2018 12:16:47 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[26-Sep-2018 12:16:47 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 12
+[26-Sep-2018 12:16:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 4
+[26-Sep-2018 12:17:07 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 12
+[26-Sep-2018 12:17:17 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[26-Sep-2018 12:17:17 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[26-Sep-2018 12:17:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:17:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:25 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:38 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:44 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:18:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[26-Sep-2018 12:18:59 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[26-Sep-2018 12:19:56 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[26-Sep-2018 12:19:56 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[26-Sep-2018 12:20:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:10 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:20 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:44 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:45 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[26-Sep-2018 12:20:45 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[26-Sep-2018 12:20:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:20:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:17 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:41 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[26-Sep-2018 12:21:41 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[26-Sep-2018 12:21:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:21:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[26-Sep-2018 12:22:01 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[26-Sep-2018 12:22:01 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[26-Sep-2018 12:22:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[26-Sep-2018 12:22:05 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[17-Oct-2018 12:31:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[17-Oct-2018 12:31:06 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[17-Oct-2018 12:31:21 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 4
+[17-Oct-2018 12:31:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 12
+[17-Oct-2018 12:31:25 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[17-Oct-2018 12:31:25 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 12
+[17-Oct-2018 12:31:27 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material-cadastrar.phtml on line 4
+[17-Oct-2018 12:31:27 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material-cadastrar.phtml on line 12
+[17-Oct-2018 12:31:29 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[17-Oct-2018 12:31:29 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[17-Oct-2018 12:31:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[17-Oct-2018 12:31:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 12
+[18-Oct-2018 17:43:16 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[18-Oct-2018 17:43:16 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[18-Oct-2018 17:43:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MySQL server' in /home/pauljalm/public_html/App/Init.php:131
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(131): PDO->__construct('mysql:host=loca...', 'pauljalm_jack', 'projeto', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Produto.php(26): SON\Di\Container::getClass('Produto')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Produto->produtosListar()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'produtos')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/produtos')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 131
+[18-Oct-2018 17:44:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[18-Oct-2018 17:44:35 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[18-Oct-2018 17:44:38 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[18-Oct-2018 17:44:38 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[18-Oct-2018 17:44:45 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[18-Oct-2018 17:44:45 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 12
+[18-Oct-2018 20:33:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[18-Oct-2018 20:33:31 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[19-Oct-2018 13:08:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:08:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/login/index.phtml on line 20
+[19-Oct-2018 13:08:41 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 4
+[19-Oct-2018 13:08:41 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate-cadastrar.phtml on line 12
+[19-Oct-2018 13:20:12 America/Sao_Paulo] PHP Fatal error:  Call to undefined method App\Controllers\Login::login() in /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php on line 26
+[19-Oct-2018 13:20:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:20:37 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Login.php(47): SON\Di\Container::getClass('Login')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Login->iniciarSessao()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'inicia-sessao')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/inicia-sessao')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[19-Oct-2018 13:20:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Login.php(47): SON\Di\Container::getClass('Login')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Login->iniciarSessao()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'inicia-sessao')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/inicia-sessao')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[19-Oct-2018 13:21:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Index.php(37): SON\Di\Container::getClass('Categoria')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Index->index()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, '/')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[19-Oct-2018 13:32:04 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'pauljalm_jack'@'localhost' to database 'projetointegrador'' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'pauljalm_jack', 'Paul1812', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Login.php(47): SON\Di\Container::getClass('Login')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Login->iniciarSessao()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'inicia-sessao')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/inicia-sessao')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[19-Oct-2018 13:32:11 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'pauljalm_jack'@'localhost' to database 'projetointegrador'' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'pauljalm_jack', 'Paul1812', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Login.php(47): SON\Di\Container::getClass('Login')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Login->iniciarSessao()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'inicia-sessao')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/inicia-sessao')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[19-Oct-2018 13:32:43 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:32:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:15 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:26 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:44 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:44 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 13:33:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:52 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:33:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:52 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:33:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:53 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:33:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:33:54 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:34:02 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:34:02 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[19-Oct-2018 13:34:03 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:34:03 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[19-Oct-2018 13:34:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:34:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[19-Oct-2018 13:34:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:34:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[19-Oct-2018 13:34:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:34:06 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 13:34:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:34:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[19-Oct-2018 13:35:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:35:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 13:36:03 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:03 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:07 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:41 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:41 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 13:36:44 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:44 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:45 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:46 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:46 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:47 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[19-Oct-2018 13:36:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:36:53 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 13:37:00 America/Sao_Paulo] PHP Fatal error:  Class 'App\Controllers\Acesso' not found in /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php on line 25
+[19-Oct-2018 13:37:07 America/Sao_Paulo] PHP Fatal error:  Class 'App\Controllers\Acesso' not found in /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php on line 25
+[19-Oct-2018 13:37:09 America/Sao_Paulo] PHP Fatal error:  Class 'App\Controllers\Acesso' not found in /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php on line 25
+[19-Oct-2018 13:37:11 America/Sao_Paulo] PHP Fatal error:  Class 'App\Controllers\Acesso' not found in /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php on line 25
+[19-Oct-2018 13:38:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:38:58 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 13:39:09 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:13 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:39:24 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:24 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:39:32 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:32 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 13:39:46 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:51 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:39:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:39:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:40:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:40:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:41:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:28 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 13:41:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:34 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:41:38 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:38 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-editar.phtml on line 4
+[19-Oct-2018 13:41:39 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:39 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-editar.phtml on line 4
+[19-Oct-2018 13:41:43 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:43 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-editar.phtml on line 4
+[19-Oct-2018 13:41:44 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:44 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:44 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-editar.phtml on line 4
+[19-Oct-2018 13:41:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:46 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:49 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:41:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:41:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 13:42:07 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 13:42:07 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 14:43:40 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:43:46 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:43:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:43:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:43:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:15 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:19 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 14:44:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 14:44:30 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:30 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[19-Oct-2018 14:44:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[19-Oct-2018 14:44:38 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:44:38 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 14:46:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:18 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 14:46:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 14:46:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 14:46:40 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:40 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 14:46:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:48 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:50 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:46:57 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 14:46:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:11 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 14:47:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso-cadastrar.phtml on line 4
+[19-Oct-2018 14:47:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:27 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 14:47:30 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:32 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:32 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:33 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:34 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:47:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:33 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:34 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:34 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:38 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:39 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:49:39 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[19-Oct-2018 14:51:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[19-Oct-2018 14:51:01 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[20-Oct-2018 02:44:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[20-Oct-2018 02:44:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:44:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:45:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:45:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:45:31 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 12:45:38 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:45:38 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 12:45:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:45:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:45:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[22-Oct-2018 12:46:35 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[22-Oct-2018 12:46:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:46:52 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:46:52 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[22-Oct-2018 12:47:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:47:49 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[22-Oct-2018 12:47:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:47:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/acesso/acesso.phtml on line 4
+[22-Oct-2018 12:48:00 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:48:03 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cate/cate.phtml on line 4
+[22-Oct-2018 12:48:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:48:21 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[22-Oct-2018 12:48:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material-cadastrar.phtml on line 4
+[22-Oct-2018 12:48:41 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/material/material.phtml on line 4
+[22-Oct-2018 12:48:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:49:00 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/cliente/cliente.phtml on line 4
+[22-Oct-2018 12:49:10 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:49:10 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 12:49:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:49:21 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 12:50:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:50:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:50:18 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 12:50:26 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:50:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:51:10 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:51:15 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:55:16 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:55:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:57:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 12:58:10 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:01:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:01:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:19 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:02:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:31 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:02:33 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:33 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:02:34 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:34 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:02:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:35 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:02:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:45 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:02:46 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:46 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:02:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:47 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:02:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:49 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:02:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:02:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:02:56 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:03:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:11 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:03:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:13 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:03:15 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:15 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:03:17 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:17 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:03:29 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:33 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:38 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:42 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:50 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:03:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:04:06 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:34:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:34:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:13 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:35:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:19 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-confirmacao.phtml on line 4
+[22-Oct-2018 13:35:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:19 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-confirmacao.phtml on line 4
+[22-Oct-2018 13:35:20 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:20 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-confirmacao.phtml on line 4
+[22-Oct-2018 13:35:20 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:20 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-confirmacao.phtml on line 4
+[22-Oct-2018 13:35:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:21 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-salvar.phtml on line 4
+[22-Oct-2018 13:35:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:22 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-salvar.phtml on line 4
+[22-Oct-2018 13:35:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-salvar.phtml on line 4
+[22-Oct-2018 13:35:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-salvar.phtml on line 4
+[22-Oct-2018 13:35:24 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:24 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:35:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:35:28 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 13:36:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:36:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:36:14 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:36:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:36:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:36:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:37:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:38:10 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:38:25 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:38:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:41:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:41:43 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:42:00 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:42:03 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:42:13 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:42:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:42:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:42:54 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:43:00 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:00 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-confirmacao.phtml on line 4
+[22-Oct-2018 13:43:01 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:01 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-confirmacao.phtml on line 4
+[22-Oct-2018 13:43:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-salvar.phtml on line 4
+[22-Oct-2018 13:43:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-deletar-salvar.phtml on line 4
+[22-Oct-2018 13:43:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:12 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:43:19 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:19 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:43:20 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:20 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:43:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:29 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:30 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:43:30 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:43:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:43:37 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar-salvar.phtml on line 4
+[22-Oct-2018 13:44:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:44:12 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:44:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:44:35 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:44:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:44:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:44:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:44:48 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:45:48 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:45:48 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:45:49 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:45:49 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:46:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:46:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:46:08 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:46:08 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 13:46:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:46:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:49:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:49:11 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 13:57:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:57:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:58:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:11 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 13:58:22 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:22 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 13:58:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:27 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:58:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:27 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:58:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:28 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 13:58:29 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 13:58:29 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:00:05 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:00:05 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 14:00:09 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:00:09 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:00:09 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:00:09 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:01:41 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:01:41 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:01:43 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:01:43 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:03:29 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:03:29 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:03:30 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:03:30 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:03:51 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:03:51 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:03:53 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:03:53 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:04:43 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:05:07 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:04:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:05:07 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:04:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:05:07 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:04:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:05:07 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:05:15 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:05:15 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:05:18 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:05:18 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:06:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:06:14 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:06:17 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:06:17 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:06:33 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:06:33 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 14:07:17 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:07:25 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 14:07:32 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:07:32 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:07:36 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:07:36 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:09:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:09:04 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:10:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:10:50 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 14:16:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:16:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 14:16:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 14:16:23 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 14:16:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'pauljalm_jack', 'Paul1812', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Index.php(37): SON\Di\Container::getClass('Categoria')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Index->index()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, '/')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[22-Oct-2018 14:16:37 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pauljalm/public_html/App/Init.php:253
+Stack trace:
+#0 /home/pauljalm/public_html/App/Init.php(253): PDO->__construct('mysql:host=loca...', 'pauljalm_jack', 'Paul1812', Array)
+#1 /home/pauljalm/public_html/vendor/SON/Di/Container.php(11): App\Init::getDb()
+#2 /home/pauljalm/public_html/App/Controllers/Index.php(37): SON\Di\Container::getClass('Categoria')
+#3 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(26): App\Controllers\Index->index()
+#4 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, '/')
+#5 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(28): array_walk(Array, Object(Closure))
+#6 /home/pauljalm/public_html/vendor/SON/Init/Bootstrap.php(14): SON\Init\Bootstrap->run('/')
+#7 /home/pauljalm/public_html/public/index.php(7): SON\Init\Bootstrap->__construct()
+#8 {main}
+  thrown in /home/pauljalm/public_html/App/Init.php on line 253
+[22-Oct-2018 14:30:11 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/pauljalm/public_html/vendor/SON/Db/Table.php on line 52
+[22-Oct-2018 14:30:11 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/pauljalm/public_html/vendor/SON/Db/Table.php on line 52
+[22-Oct-2018 14:30:26 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/pauljalm/public_html/vendor/SON/Db/Table.php on line 52
+[22-Oct-2018 14:30:30 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/pauljalm/public_html/vendor/SON/Db/Table.php on line 52
+[22-Oct-2018 14:32:04 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/pauljalm/public_html/vendor/SON/Db/Table.php on line 52
+[22-Oct-2018 14:32:18 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/pauljalm/public_html/vendor/SON/Db/Table.php on line 52
+[22-Oct-2018 15:03:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:28 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:29 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 15:04:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:37 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 15:04:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:04:55 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:55 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:04:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:57 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:04:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:57 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:04:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:04:59 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-cadastrar.phtml on line 4
+[22-Oct-2018 15:14:00 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:14:00 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario.phtml on line 4
+[22-Oct-2018 15:14:09 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:14:09 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:14:12 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:14:13 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:14:14 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:14:17 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4
+[22-Oct-2018 15:14:21 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/pauljalm/public_html/App/Views/layout.phtml on line 74
+[22-Oct-2018 15:14:21 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pauljalm/public_html/App/Views/layout.phtml:29) in /home/pauljalm/public_html/App/Views/usuario/usuario-editar.phtml on line 4

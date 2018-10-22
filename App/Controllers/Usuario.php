@@ -69,7 +69,7 @@ class Usuario extends Action
         $acesso = Container::getClass("Acesso");
 
         $campos = "*";
-        $ordenarPor = "Id_acesso";
+        $ordenarPor = "nome_nivel";
         $ordenacao = "asc";
         $acessos = $acesso->select($campos, $ordenarPor, $ordenacao);
      
@@ -207,7 +207,7 @@ class Usuario extends Action
         // Diz ao Controller que utilizaremos a Model Subema (tabela Acesso)        
         $acesso = Container::getClass("Acesso");
 
-        $campos = "Id_acesso, nivel_usuario";
+        $campos = "Id_acesso, nome_nivel";
         $ordenarPor = "Id_acesso";
         $ordenacao = "asc";
         $acessos = $acesso->select($campos, $ordenarPor, $ordenacao);
