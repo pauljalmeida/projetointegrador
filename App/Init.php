@@ -250,7 +250,7 @@ $ar['nivel-deletar-salvar'] = array('route' => '/nivel-deletar-salvar', 'control
 
     public static function getDb()
     {
-        $db = new \PDO("mysql:host=localhost;dbname=projetointegrador", "root", "", array(\PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+        $db = new \PDO("mysql:host=localhost;dbname=gotasdesabor", "root", "", array(\PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
         return $db;
     }
 }
