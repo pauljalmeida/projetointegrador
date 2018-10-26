@@ -66,7 +66,29 @@ class Acesso extends Action
             
         // Renderizando (chama a view: acesso/acesso.phtml). Esta view recebe o array $this->view->acessos. 
         //Ele será o responsável por exibir os dados na view
+        
+
+        $categoria = Container::getClass("Categoria");
+
+        $campos = "*";
+        $ordenarPor = "nome";
+        $ordenacao = "asc";
+        $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+     
+        // Envia o array de categorias do select acima para a view; 
+        // Na view, faremos um for para exibir todos os dados de categorias deste array
+        $this->view->categorias = $categorias;
+        
+            
+        // Renderizando (chama a view: cate/cate.phtml). Esta view recebe o array $this->view->cates. 
+        //Ele será o responsável por exibir os dados na view
+     
+
+
+
+
         $this->render('acesso');
+        
     }
  
     // Exibe o formulário de cadastro de acessos
@@ -77,7 +99,16 @@ class Acesso extends Action
         * Chama a view acesso/acesso-cadastrar.phtml 
         * Caso não queira utilizar o template e imprimir apenas o content, usar $this->render('acesso-cadastrar', false);
         * Todo o conteúdo desta view (neste caso, o formulário de cadastro) será impresso, no layout, através do código echo $this->content(); que já está definido no arquivo layout.phtml
-        */
+        */  $categoria = Container::getClass("Categoria");
+
+        $campos = "*";
+        $ordenarPor = "nome";
+        $ordenacao = "asc";
+        $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+     
+        // Envia o array de categorias do select acima para a view; 
+        // Na view, faremos um for para exibir todos os dados de categorias deste array
+        $this->view->categorias = $categorias;
    
         $this->render('acesso-cadastrar');
     }
@@ -100,6 +131,8 @@ class Acesso extends Action
         // Note que não foi preciso implementar nada em SQL pois tudo já está pronto.
         $acessos = $acesso->insert($arrayBD);
 
+
+        
         
             $this->render('acesso-cadastrar-salvar');
        
@@ -139,6 +172,16 @@ class Acesso extends Action
  
         // Atribui para a view;
         $this->view->acessos = $acessos;
+        $categoria = Container::getClass("Categoria");
+
+        $campos = "*";
+        $ordenarPor = "nome";
+        $ordenacao = "asc";
+        $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+     
+        // Envia o array de categorias do select acima para a view; 
+        // Na view, faremos um for para exibir todos os dados de categorias deste array
+        $this->view->categorias = $categorias;
   
         // Renderizando
         $this->render('acesso-editar');  

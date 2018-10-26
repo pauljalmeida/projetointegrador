@@ -1,15 +1,14 @@
 <?php
-if(!isset($_SESSION))
-{
-   session_start();
+if (!isset($_SESSION)) {
+    session_start();
 }
 if ($_SESSION['logado']):
-?>	
-Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+?>
+Olá <b><?php echo $_SESSION['login'] ?></b>, para sair do painel administrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
 <br>
 <?php
 else:
-header("Location: login");
+    header("Location: login");
 endif;
 ?> <br>
 <div class="py-5">
@@ -24,7 +23,7 @@ endif;
             <li class="nav-item">
               <a class="btn bg-success text-white" href="/cate-cadastrar" role="button">Cadastrar Categorias</a>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -36,22 +35,22 @@ endif;
           <li class="nav-item">
               <a href="/inicia-sessao" class="nav-link">
                 <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a href="usuario" class="nav-link">Gerenciar usuários</a>
             </li>
             <li class="nav-item">
               <a href="acesso" class="nav-link">Gerenciar acessos</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a href="cate" class="nav-link">Gerenciar categorias</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a href="material" class="nav-link">Gerenciar Material</a>
             </li>
             <li class="nav-item">
               <a href="cliente" class="nav-link">Mensagens do Cliente</a>
-            </li>  
+            </li>
           </ul>
 </div>
 </div>
@@ -59,10 +58,10 @@ endif;
 <div class="col-md-10">
 
 <h4>Cadastrar a categoria</h4>
-<form action="cate-cadastrar-salvar" method="post">   
+<form action="cate-cadastrar-salvar" method="post">
     <div class="form-group">
-        <label>Nome da categoria: </label>        
-        <input type="text" name="nome" class="form-control"> 
+        <label>Nome da categoria: </label>
+        <input type="text" name="nome" class="form-control">
     </div>
    <button type="submit" class="btn btn-success">Cadastrar</button>
 </form>

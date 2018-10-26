@@ -81,6 +81,21 @@ class Usuario extends Action
    
         // Renderizando (chama a view: usuario/usuario.phtml). Esta view recebe o array $this->view->usuarios. 
         //Ele será o responsável por exibir os dados na view
+        $categoria = Container::getClass("Categoria");
+
+        $campos = "*";
+        $ordenarPor = "nome";
+        $ordenacao = "asc";
+        $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+     
+        // Envia o array de categorias do select acima para a view; 
+        // Na view, faremos um for para exibir todos os dados de categorias deste array
+        $this->view->categorias = $categorias;
+      
+      
+      
+      
+      
         $this->render('usuario');
     }
  
@@ -109,6 +124,18 @@ class Usuario extends Action
         $this->view->acessos = $acessos;
             
         //Ele será o responsável por exibir os dados na view
+        $categoria = Container::getClass("Categoria");
+
+        $campos = "*";
+        $ordenarPor = "nome";
+        $ordenacao = "asc";
+        $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+     
+        // Envia o array de categorias do select acima para a view; 
+        // Na view, faremos um for para exibir todos os dados de categorias deste array
+        $this->view->categorias = $categorias;
+
+
         $this->render('usuario-cadastrar');
 
     }

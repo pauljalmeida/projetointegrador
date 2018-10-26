@@ -56,6 +56,8 @@ class Login extends Action
                 elseif (($_SESSION['verifique']==1) && $arquivo->validateLogin($_POST["siape"], $_POST["senha"])){
                      $_SESSION['logado'] = true; 
                     // Após o login, redireciona o usuário para a view início.
+                    
+                    
                     $this->render('inicia-sessao'); 
                 } 
 
@@ -66,13 +68,27 @@ class Login extends Action
                 } 
         }
         elseif (isset($_SESSION['logado'])) { //se usuario ja estiver conectado acessa o sistema.
+
+            $categoria = Container::getClass("Categoria");
+
+            $campos = "*";
+            $ordenarPor = "nome";
+            $ordenacao = "asc";
+            $categorias = $categoria->select($campos, $ordenarPor, $ordenacao);
+         
+            // Envia o array de categorias do select acima para a view; 
+            // Na view, faremos um for para exibir todos os dados de categorias deste array
+            $this->view->categorias = $categorias;
+
                 $this->render('inicia-sessao');
         }
         else{
 
             $this->render('login'); //se nao estiver conectado vai p/ login.
         }
+        
     }
+
 
     /**
      *  Encerra a sessão e redireciona o usuário para a página de login
