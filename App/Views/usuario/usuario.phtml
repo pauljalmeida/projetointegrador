@@ -11,12 +11,14 @@ Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo 
 else:
 header("Location: login");
 endif;
-?><br> 
+?>
+
+<br> 
   <div class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <ul class="nav nav-pills">
+        <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="btn bg-success text-white" href="/usuario-cadastrar" role="button">
                 <i></i>&nbsp;Cadastrar Usuários</a>
@@ -45,6 +47,7 @@ endif;
     <div class="container">
       <div class="row">
         <div class="col-md-2">
+          <div class="menuLateral">
           <ul class="nav nav-pills flex-column">
             <li class="nav-item">
               <a href="/inicia-sessao" class="nav-link">
@@ -65,10 +68,11 @@ endif;
             <li class="nav-item">
               <a href="cliente" class="nav-link">Mensagens do Cliente</a>
             </li>            
-          </ul>
-        </div>
+          </ul>          
+         </div> 
+    </div>
         <div class="col-md-10">
-            <h3 align="center">Relação de usuarios</h3>
+            <h3 align="center">Relação de usuários</h3>
             <table class="table table-striped table-hover table-bordered">
                 <tr>        
                     <td>Nome</td>
@@ -88,14 +92,20 @@ endif;
                 // calcula o numero de linhas retornadas pelo Select que filtou conforme pelo $inico e $itens por pagina
                 
                   //Exibe os Valores na tela
-                  foreach ($this->view->usuarios as $usuario): 
+                  foreach ($this->view->usuarios as $usuario):
+                    foreach ($this->view->acessos as $acesso){
+                      if (($usuario["Id_acesso"])==($acesso["Id_acesso"])){
+                        $descricao_acesso=$acesso["nome_nivel"];
+                      }
+
+                    }
                   ?>
                   <tr>
                       <td><?php echo $usuario["primeiro_nome"]; ?></td>
                       <td><?php echo $usuario["siape"]; ?></td>
                       <td><?php echo $usuario["cargo"]; ?></td>
                       <td><?php echo $usuario["email"]; ?></td>
-                      <td><?php echo $usuario["Id_acesso"]; ?></td>
+                      <td><?php echo $descricao_acesso; ?></td>
                       <td><?php echo $usuario["ativo"]; ?></td>
                       <td>
                           <a href="usuario-editar/<?php echo $usuario["id_usuario"]; ?>"><span class='glyphicon glyphicon-pencil'></span></a>

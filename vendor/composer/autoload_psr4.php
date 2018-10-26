@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Sirius\\Validation\\' => array($vendorDir . '/siriusphp/validation/src'),
     'Sirius\\Upload\\' => array($vendorDir . '/siriusphp/upload/src'),
+    'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
 );

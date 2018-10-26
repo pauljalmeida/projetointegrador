@@ -12,6 +12,10 @@ class ComposerStaticInit05221f7ae1caebcd9c5e2c9d37d8b38e
             'Sirius\\Validation\\' => 18,
             'Sirius\\Upload\\' => 14,
         ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -22,6 +26,10 @@ class ComposerStaticInit05221f7ae1caebcd9c5e2c9d37d8b38e
         'Sirius\\Upload\\' => 
         array (
             0 => __DIR__ . '/..' . '/siriusphp/upload/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
     );
 

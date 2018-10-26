@@ -1,15 +1,14 @@
 <?php
-if(!isset($_SESSION))
-{
-   session_start();
+if (!isset($_SESSION)) {
+    session_start();
 }
 if ($_SESSION['logado']):
-?>	
-Olá <b><?php echo $_SESSION['login']?></b>, para sair do painel administrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
+?>
+Olá <b><?php echo $_SESSION['login'] ?></b>, para sair do painel administrativo <a href="sair"><button type="button" class="btn btn-default">clique aqui.</button></a>
 <br>
 <?php
 else:
-header("Location: login");
+    header("Location: login");
 endif;
 ?> <br>
 <div class="py-5">
@@ -24,53 +23,55 @@ endif;
             <li class="nav-item">
               <a class="btn bg-success text-white" href="/material-cadastrar" role="button">Material Cadastrar</a>
             </li>
-            
+
           </ul>
         </div>
-      </div>
-    </div>
+     </div>
   </div>
+ </div>
 <div class="col-md-2">
-<ul class="nav nav-pills flex-column">
+    <div class="menuLateral">
+        <ul class="nav nav-pills flex-column">
           <li class="nav-item">
               <a href="/inicia-sessao" class="nav-link">
                 <i class="fa fa-home"></i>&nbsp;Painel Inicial</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a href="usuario" class="nav-link">Gerenciar usuários</a>
             </li>
             <li class="nav-item">
               <a href="acesso" class="nav-link">Gerenciar acessos</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a href="cate" class="nav-link">Gerenciar categorias</a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a href="material" class="nav-link">Gerenciar Material</a>
             </li>
             <li class="nav-item">
               <a href="cliente" class="nav-link">Mensagens do Cliente</a>
-            </li>  
-          </ul>
+            </li>
+         </ul>
+    </div>
 </div>
 
 <div class="col-md-10">
 <h4>Relação de materiais</h4>
 <table class="table table-striped table-hover table-bordered">
-    <tr>        
+    <tr>
         <td class="celula_fixa">Nome</td>
         <td>Descrição</td>
         <td class="celula_fixa2">Categoria</td>
         <td class="celula_fixa3">Imagem</td>
         <td class="celula_fixa4">Ações</td>
-    </tr> 
-    <?php 
-    /* $this->view->clientes é o array de clientes que foi passado pelo Controller, *após a excução do método select();
-    * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
-    */ 
-    foreach ($this->view->materiais as $material): 
-    ?>
-    
+    </tr>
+    <?php
+/* $this->view->clientes é o array de clientes que foi passado pelo Controller, *após a excução do método select();
+ * Através do foreach, é percorrido todo o array para fazer a impressão dos dados
+ */
+foreach ($this->view->materiais as $material):
+?>
+
     <tr>
         <td><?php echo $material["nome_produto"]; ?></td>
         <td><?php echo $material["descricao"]; ?></td>
@@ -81,6 +82,6 @@ endif;
             <a href="material-deletar-confirmacao/<?php echo $material["id"]; ?>"><span class='glyphicon glyphicon-remove'></span></a>
         </td>
     </tr>
-    <?php endforeach; ?>
+    <?php endforeach;?>
 </table>
 </div>

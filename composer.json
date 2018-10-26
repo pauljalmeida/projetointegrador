@@ -3,7 +3,8 @@
     "require": {
         "php": ">=5.3",
         "siriusphp/upload": "^2.1",
-        "eventviva/php-image-resize": "^1.6"
+        "eventviva/php-image-resize": "^1.6",
+        "phpmailer/phpmailer": "^6.0"
     },
 
     "minimum-stability": "alpha",
