@@ -236,6 +236,8 @@ $ar['nivel-deletar-salvar'] = array('route' => '/nivel-deletar-salvar', 'control
  // Rota da página de exclusão definitva de acesso
  $ar['acesso-deletar-salvar'] = array('route' => '/acesso-deletar-salvar', 'controller' => 'acesso', 'action' => 'acessoDeletarSalvar');  
 
+ $ar['email'] = array('route' => '/enviaremail', 'controller' => 'email', 'action' => 'enviaremails');  
+        
 
         $this->setRoutes($ar);
     }
